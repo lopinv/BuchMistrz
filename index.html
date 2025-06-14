@@ -10,15 +10,15 @@
     <!-- Open Graph Meta Tags -->
     <meta property="og:title" content="🚬E-papierosy - Stylowe, Przenośne i Gotowe E-papierosy Jednorazowe. Kup Online!" />
     <meta property="og:description" content="Szukasz stylowego e-papierosa? Buch Mistrz to dobry wybór – nowoczesne i gotowe jednorazówki z fajnymi smakami! ✨ Kup szybko online lub sprawdź hurtową ofertę. Dobre jakość i wygoda na co dzień. Zaufaj liderowi – Buch Mistrz! 🚬🔥" />
-    <meta property="og:image" content="https://xcorvape.com/wp-content/uploads/2024/07/画板-3.png" />
-    <meta property="og:url" content="https://www.wordpress.local/" />
+    <meta property="og:image" content="https://cdn.xcorvape.com/wp-content/uploads/2024/07/%E7%94%BB%E6%9D%BF-1.png" />
+    <meta property="og:url" content="https://vape.lopins.cn" />
     <meta property="og:type" content="website" />
     <meta property="og:site_name" content="E-papierosy Store" />
     <!-- Twitter Card Meta Tags -->
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="🚬E-papierosy - Stylowe, Przenośne i Gotowe E-papierosy Jednorazowe. Kup Online!" />
     <meta name="twitter:description" content="Szukasz stylowego e-papierosa? Buch Mistrz to dobry wybór – nowoczesne i gotowe jednorazówki z fajnymi smakami! ✨ Kup szybko online lub sprawdź hurtową ofertę. Dobre jakość i wygoda na co dzień. Zaufaj liderowi – Buch Mistrz! 🚬🔥" />
-    <meta name="twitter:image" content="https://xcorvape.com/wp-content/uploads/2024/07/画板-3.png" />
+    <meta name="twitter:image" content="https://cdn.xcorvape.com/wp-content/uploads/2024/07/%E7%94%BB%E6%9D%BF-1.png" />
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -496,44 +496,235 @@
         const whatsappgroup = 'IL4rxWm7hkZJ6XM3CyC1lC'; // WA群组
         const chatmessage = 'Cześć, jestem zainteresowany Twoim produktem i chciałbym uzyskać więcej informacji.';
     </script>
-    <script type="application/ld+json">{
+    <!-- JSON-LD Structured Data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "Buch Mistrz",
+        "url": "https://www.buchmistrz.pl",
+        "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://www.buchmistrz.pl/?s={search_term_string}",
+        "query-input": "required name=search_term_string"
+        }
+    }
+    </script>
+
+    <!-- FAQPage Schema -->
+    <script type="application/ld+json">
+    {
         "@context": "https://schema.org",
         "@type": "FAQPage",
         "mainEntity": [
-            {
+        {
             "@type": "Question",
             "name": "Czy produkty są dostępne na magazynie?",
             "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Tak, wszystkie produkty wymienione na stronie są aktualnie dostępne na magazynie."
+            "@type": "Answer",
+            "text": "Tak, wszystkie produkty wymienione na stronie są aktualnie dostępne na magazynie."
             }
-            },
-            {
+        },
+        {
             "@type": "Question",
             "name": "Jak długo trwa dostawa?",
             "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Dostawa do Polski zwykle trwa od 3 do 7 dni roboczych, w zależności od wybranej firmy kurierskiej."
+            "@type": "Answer",
+            "text": "Dostawa zajmuje od 1 do 3 dni roboczych w Polsce. Opcja kurierska i paczkomaty."
             }
-            },
-            {
-            "@type": "Question",
-            "name": "Czy można zwrócić produkt?",
-            "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Tak, masz 14 dni na zwrot towaru od daty otrzymania. Produkt musi być nieużywany i w oryginalnym opakowaniu."
-            }
-            },
-            {
+        },
+        {
             "@type": "Question",
             "name": "Jak mogę skontaktować się z obsługą klienta?",
             "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Możesz skorzystać z formularza kontaktowego, WhatsAppa lub Telegrama. Linki znajdują się u dołu strony."
+            "@type": "Answer",
+            "text": "Możesz skorzystać z formularza kontaktowego, WhatsAppa lub Telegrama. Linki znajdują się u dołu strony."
             }
-            }
+        }
         ]
-    }</script>
+    }
+    </script>
+
+    <!-- Organization Schema -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Buch Mistrz",
+        "url": "https://www.buchmistrz.pl/",
+        "logo": "https://www.buchmistrz.pl/wp-content/themes/vape/assets/images/logo.png",
+        "contactPoint": [
+        {
+            "@type": "ContactPoint",
+            "telephone": "+48729250699",
+            "contactType": "customer service",
+            "areaServed": "PL",
+            "availableLanguage": ["Polish", "English"]
+        }
+        ],
+        "sameAs": [
+        "https://t.me/buch_mistrz",
+        "https://wa.me/+48729250699"
+        ]
+    }
+    </script>
+
+    <!-- Product Schema - XCOR 12000 PUFFS -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "XCOR 12000 PUFFS",
+        "description": "E-papieros jednorazowy z szerokim wachlarzem smaków, idealny na co dzień. Wytrzymały do 12000 puffów.",
+        "brand": {
+        "@type": "Organization",
+        "name": "Buch Mistrz"
+        },
+        "offers": {
+        "@type": "Offer",
+        "priceCurrency": "PLN",
+        "price": "99.99",
+        "availability": "https://schema.org/InStock",
+        "url": "https://www.buchmistrz.pl/products/10.html"
+        },
+        "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.8",
+        "reviewCount": "1241"
+        }
+    }
+    </script>
+    
+    <!-- Product Schema - FUMOT TORNADO 20000 PUFFS -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "FUMOT TORNADO 20000 PUFFS",
+        "description": "Wysokiej jakości e-papieros jednorazowy z intensywnymi smakami owocowymi i mentolowymi. Idealny dla zaawansowanych użytkowników.",
+        "brand": {
+        "@type": "Organization",
+        "name": "Buch Mistrz"
+        },
+        "offers": {
+        "@type": "Offer",
+        "priceCurrency": "PLN",
+        "price": "119.99",
+        "availability": "https://schema.org/InStock",
+        "url": "https://www.buchmistrz.pl/products/16.html"
+        },
+        "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.7",
+        "reviewCount": "1995"
+        }
+    }
+    </script>
+    
+    <!-- Product Schema - Crystal Blind 25000 PUFFS -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "Crystal Blind 25000 PUFFS",
+        "description": "E-papieros jednorazowy o wyjątkowych dwusmakowych kombinacjach. Wytrzymały do 25000 puffów.",
+        "brand": {
+        "@type": "Organization",
+        "name": "Buch Mistrz"
+        },
+        "offers": {
+        "@type": "Offer",
+        "priceCurrency": "PLN",
+        "price": "139.99",
+        "availability": "https://schema.org/InStock",
+        "url": "https://www.buchmistrz.pl/products/14.html"
+        },
+        "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "reviewCount": "1880"
+        }
+    }
+    </script>
+
+    <!-- Product Schema - FIZZY TWINS 50000 PUFFS -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "FIZZY TWINS 50000 PUFFS",
+        "description": "E-papieros jednorazowy z dwusmakową formułą, zaprojektowany na 50 000 puffów. Idealny dla wymagających użytkowników.",
+        "brand": {
+        "@type": "Organization",
+        "name": "Buch Mistrz"
+        },
+        "offers": {
+        "@type": "Offer",
+        "priceCurrency": "PLN",
+        "price": "149.99",
+        "availability": "https://schema.org/InStock",
+        "url": "https://www.buchmistrz.pl/products/20.html"
+        },
+        "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.7",
+        "reviewCount": "1560"
+        }
+    }
+    </script>
+
+    <!-- Product Schema - RANDM TORNADO 15000 PUFFS -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "RANDM TORNADO 15000 PUFFS",
+        "description": "Nowoczesny e-papieros jednorazowy z intensywnymi smakami owocowymi i mentolowymi. Wytrzymały do 15 000 puffów.",
+        "brand": {
+        "@type": "Organization",
+        "name": "Buch Mistrz"
+        },
+        "offers": {
+        "@type": "Offer",
+        "priceCurrency": "PLN",
+        "price": "109.99",
+        "availability": "https://schema.org/InStock",
+        "url": "https://www.buchmistrz.pl/products/12.html"
+        },
+        "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.6",
+        "reviewCount": "2455"
+        }
+    }
+    </script>
+
+    <!-- Product Schema - XCOR DUBAI NIGHT 28000 PUFFS -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "XCOR DUBAI NIGHT 28000 PUFFS",
+        "description": "E-papieros jednorazowy o wyjątkowym smaku nocnego Dubaju – idealny balans między intensywnością a subtelnością aromatów.",
+        "brand": {
+        "@type": "Organization",
+        "name": "Buch Mistrz"
+        },
+        "offers": {
+        "@type": "Offer",
+        "priceCurrency": "PLN",
+        "price": "159.99",
+        "availability": "https://schema.org/InStock",
+        "url": "https://www.buchmistrz.pl/products/18.html"
+        },
+        "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "reviewCount": "1975"
+        }
+    }
+    </script>
+
 </head>
 <body>
     <!-- 加载动画 -->
@@ -544,8 +735,8 @@
     <!-- 导航栏 -->
     <nav class="navbar navbar-expand-lg fixed-top">
         <div class="container">
-            <a class="navbar-brand" href="#home">
-                <i class="fas fa-store me-2"></i>Buch Mistrz
+            <a class="navbar-brand" href="/">
+                <i class="fas fa-store me-2"></i><h1>Buch Mistrz</h1>
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
