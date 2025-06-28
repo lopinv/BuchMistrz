@@ -120,9 +120,43 @@
             margin-bottom: 0px;
         }
         
-        .product-card:hover {
-            transform: translateY(-10px);
-            box-shadow: 0 15px 35px rgba(0,0,0,0.2);
+        /* 产品价格标签 */
+        .product-price {
+            position: absolute;
+            top: 15px;
+            left: 15px;
+            background: linear-gradient(135deg, #e74c3c 0%, #c0392b 100%);
+            color: white;
+            padding: 8px 12px;
+            border-radius: 20px;
+            font-weight: 700;
+            font-size: 0.9rem;
+            z-index: 10;
+            box-shadow: 0 4px 15px rgba(231, 76, 60, 0.3);
+            transition: all 0.3s ease;
+        }
+
+        .product-price::before {
+            content: '';
+            position: absolute;
+            top: -5px;
+            left: -5px;
+            right: -5px;
+            bottom: -5px;
+            background: linear-gradient(135deg, rgba(231, 76, 60, 0.2) 0%, rgba(192, 57, 43, 0.2) 100%);
+            border-radius: 25px;
+            z-index: -1;
+            opacity: 0;
+            transition: opacity 0.3s ease;
+        }
+
+        .product-card:hover .product-price::before {
+            opacity: 1;
+        }
+
+        .product-card:hover .product-price {
+            transform: scale(1.05);
+            box-shadow: 0 6px 20px rgba(231, 76, 60, 0.4);
         }
         
         .product-image {
@@ -498,10 +532,10 @@
         #pro-desc{display: none;}
     </style>
     <script>
-        const ajaxurl = 'http://www.wordpress.local/wp-json/v1/order/submit';
+        const ajaxurl = 'https://www.buchmistrz.pl/wp-admin/admin-ajax.php';
         const telegramNumber = 'buch_mistrz'; // TG账号
         const whatsappNumber = '+48729250699';  // WA账号
-        const telegramgroup = '+pP3RvnRfsgkyNDU8';  // TG群组
+        const telegramgroup = '+vR1iUoVzSxpjMDc8';  // TG群组
         const whatsappgroup = 'IL4rxWm7hkZJ6XM3CyC1lC'; // WA群组
         const chatmessage = 'Cześć, jestem zainteresowany Twoim produktem i chciałbym uzyskać więcej informacji.';
     </script>
@@ -584,6 +618,10 @@
         "@context": "https://schema.org",
         "@type": "Product",
         "name": "XCOR 12000 PUFFS",
+        "image": "https://www.buchmistrz.pl/wp-content/uploads/632d21d4-738a-40be-97a0-403d052e2a06.png",
+        "sku": "12000",
+        "mpn": "XCOR 12000 PUFFS",
+        "category": "E-papierosy",
         "description": "E-papieros jednorazowy z szerokim wachlarzem smaków, idealny na co dzień. Wytrzymały do 12000 puffów.",
         "brand": {
         "@type": "Organization",
@@ -592,7 +630,7 @@
         "offers": {
         "@type": "Offer",
         "priceCurrency": "PLN",
-        "price": "45.00",
+        "price": "39.90",
         "availability": "https://schema.org/InStock",
         "url": "https://www.buchmistrz.pl/products/10.html"
         },
@@ -610,6 +648,10 @@
         "@context": "https://schema.org",
         "@type": "Product",
         "name": "FUMOT TORNADO 20000 PUFFS",
+        "image": "https://www.buchmistrz.pl/wp-content/uploads/fumot-digital-box-20000.png",
+        "sku": "20000",
+        "mpn": "FUMOT TORNADO 20000 PUFFS",
+        "category": "E-papierosy",
         "description": "Wysokiej jakości e-papieros jednorazowy z intensywnymi smakami owocowymi i mentolowymi. Idealny dla zaawansowanych użytkowników.",
         "brand": {
         "@type": "Organization",
@@ -618,7 +660,7 @@
         "offers": {
         "@type": "Offer",
         "priceCurrency": "PLN",
-        "price": "50.00",
+        "price": "60.00",
         "availability": "https://schema.org/InStock",
         "url": "https://www.buchmistrz.pl/products/16.html"
         },
@@ -636,6 +678,10 @@
         "@context": "https://schema.org",
         "@type": "Product",
         "name": "Crystal Blind 25000 PUFFS",
+        "image": "https://www.buchmistrz.pl/wp-content/uploads/3983bf52-f027-4e26-93fb-12a54eea9e7f.png",
+        "sku": "25000",
+        "mpn": "Crystal Blind 25000 PUFFS",
+        "category": "E-papierosy",
         "description": "E-papieros jednorazowy o wyjątkowych dwusmakowych kombinacjach. Wytrzymały do 25000 puffów.",
         "brand": {
         "@type": "Organization",
@@ -662,6 +708,10 @@
         "@context": "https://schema.org",
         "@type": "Product",
         "name": "FIZZY TWINS 50000 PUFFS",
+        "image": "https://www.buchmistrz.pl/wp-content/uploads/Fizzy-Twins-50000Puffs.png.webp",
+        "sku": "50000",
+        "mpn": "FIZZY TWINS 50000 PUFFS",
+        "category": "E-papierosy",
         "description": "E-papieros jednorazowy z dwusmakową formułą, zaprojektowany na 50 000 puffów. Idealny dla wymagających użytkowników.",
         "brand": {
         "@type": "Organization",
@@ -688,6 +738,10 @@
         "@context": "https://schema.org",
         "@type": "Product",
         "name": "RANDM TORNADO 15000 PUFFS",
+        "image": "https://www.buchmistrz.pl/wp-content/uploads/6483a4ae-7898-4343-a495-f3dc39c49a5f.png",
+        "sku": "15000",
+        "mpn": "RANDM TORNADO 15000 PUFFS",
+        "category": "E-papierosy",
         "description": "Nowoczesny e-papieros jednorazowy z intensywnymi smakami owocowymi i mentolowymi. Wytrzymały do 15 000 puffów.",
         "brand": {
         "@type": "Organization",
@@ -714,6 +768,10 @@
         "@context": "https://schema.org",
         "@type": "Product",
         "name": "XCOR DUBAI NIGHT 28000 PUFFS",
+        "image": "https://www.buchmistrz.pl/wp-content/uploads/2023/07/XCOR-DUBAI-NIGHT-28000-PUFFS.png",
+        "sku": "28000",
+        "mpn": "XCOR DUBAI NIGHT 28000 PUFFS",
+        "category": "E-papierosy",
         "description": "E-papieros jednorazowy o wyjątkowym smaku nocnego Dubaju – idealny balans między intensywnością a subtelnością aromatów.",
         "brand": {
         "@type": "Organization",
@@ -803,6 +861,7 @@
             <div class="row" id="productGrid">
                 <div class="col-lg-4 col-md-6 col-sm-6" data-product="XCOR 12000 PUFFS">
                     <div class="product-card">
+                        <div class="product-price">39,90 PLN</div>
                         <img decoding="async" loading="lazy"  src="https://www.buchmistrz.pl/wp-content/uploads/632d21d4-738a-40be-97a0-403d052e2a06.png" alt="XCOR 12000 PUFFS" class="product-image">
                         <div class="product-overlay">
                             <button class="btn btn-light btn-lg" data-bs-toggle="modal" data-bs-target="#productModal" onclick="showProductDetails('XCOR 12000 PUFFS')">
@@ -822,6 +881,7 @@
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-6" data-product="RANDM TORNADO 15000 PUFFS">
                     <div class="product-card">
+                        <div class="product-price">50,00 PLN</div>
                         <img decoding="async" loading="lazy"  src="https://www.buchmistrz.pl/wp-content/uploads/6483a4ae-7898-4343-a495-f3dc39c49a5f.png" alt="RANDM TORNADO 15000 PUFFS" class="product-image">
                         <div class="product-overlay">
                             <button class="btn btn-light btn-lg" data-bs-toggle="modal" data-bs-target="#productModal" onclick="showProductDetails('RANDM TORNADO 15000 PUFFS')">
@@ -841,6 +901,7 @@
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-6" data-product="Crystal Blind 25000 PUFFS">
                     <div class="product-card">
+                        <div class="product-price">60,00 PLN</div>
                         <img decoding="async" loading="lazy"  src="https://www.buchmistrz.pl/wp-content/uploads/3983bf52-f027-4e26-93fb-12a54eea9e7f.png" alt="Crystal Blind 25000 PUFFS" class="product-image">
                         <div class="product-overlay">
                             <button class="btn btn-light btn-lg" data-bs-toggle="modal" data-bs-target="#productModal" onclick="showProductDetails('Crystal Blind 25000 PUFFS')">
@@ -860,6 +921,7 @@
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-6" data-product="FUMOT TORNADO 20000 PUFFS">
                     <div class="product-card">
+                        <div class="product-price">60,00 PLN</div>
                         <img decoding="async" loading="lazy"  src="https://www.buchmistrz.pl/wp-content/uploads/fumot-digital-box-20000.png" alt="FUMOT TORNADO 20000 PUFFS" class="product-image">
                         <div class="product-overlay">
                             <button class="btn btn-light btn-lg" data-bs-toggle="modal" data-bs-target="#productModal" onclick="showProductDetails('FUMOT TORNADO 20000 PUFFS')">
@@ -879,6 +941,7 @@
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-6" data-product="XCOR DUBAI NIGHT 28000 PUFFS">
                     <div class="product-card">
+                        <div class="product-price">60,00 PLN</div>
                         <img decoding="async" loading="lazy"  src="https://www.buchmistrz.pl/wp-content/uploads/DS17%E9%BB%91%E8%89%B2-1.png" alt="XCOR DUBAI NIGHT 28000 PUFFS" class="product-image">
                         <div class="product-overlay">
                             <button class="btn btn-light btn-lg" data-bs-toggle="modal" data-bs-target="#productModal" onclick="showProductDetails('XCOR DUBAI NIGHT 28000 PUFFS')">
@@ -898,6 +961,7 @@
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-6" data-product="FIZZY TWINS 50000 PUFFS">
                     <div class="product-card">
+                        <div class="product-price">80,00 PLN</div>
                         <img decoding="async" loading="lazy"  src="https://www.buchmistrz.pl/wp-content/uploads/Fizzy-Twins-50000Puffs.png.webp" alt="FIZZY TWINS 50000 PUFFS" class="product-image">
                         <div class="product-overlay">
                             <button class="btn btn-light btn-lg" data-bs-toggle="modal" data-bs-target="#productModal" onclick="showProductDetails('FIZZY TWINS 50000 PUFFS')">
@@ -1565,7 +1629,7 @@
                         <!-- Imię i nazwisko -->
                         <div class="mb-3">
                             <label for="name" class="form-label">Imię i nazwisko</label>
-                            <input type="text" class="form-control" id="name" name="name" placeholder="Nazwisko i płeć" required>
+                            <input type="text" class="form-control" id="name" name="name" placeholder="Imię i nazwisko (np. imię + nazwisko)" required>
                         </div>
 
                         <!-- Adres tel -->
@@ -1583,7 +1647,7 @@
                         <!-- Adres wysyłki -->
                         <div class="mb-3">
                             <label for="address" class="form-label">Adres wysyłki</label>
-                            <input type="text" class="form-control" id="address" name="address" placeholder="Adres wysyłki( kod paczkomatu )" required>
+                            <input type="text" class="form-control" id="address" name="address" placeholder="Adres dostawy (kod paczkomatuj Inpost)" required>
                         </div>
 
                         <!-- contact_method / social_account -->
@@ -1612,10 +1676,32 @@
                             </select>
                         </div>
 
+                        <!-- Wybór smaku -->
+                        <div class="mb-3">
+                            <label for="flavor" class="form-label">Wybór smaku</label>
+                            <select class="form-select" id="flavorSelect" name="flavor">
+                                <option value="Wielokrotny">Wielokrotny</option>
+                                <!-- 从产品变量中获取口味 -->
+                            </select>
+                        </div>
+
+                        <!-- Ilość -->
+                        <div class="mb-3">
+                            <label for="quantity" class="form-label">Ilość</label>
+                            <input type="number" class="form-control" id="quantity" name="quantity" placeholder="Ilość" value="1" required>
+                        </div>
+
+                        <!-- Cena łączna -->
+                        <div class="mb-3">
+                            <label for="total_price" class="form-label">Cena łączna</label>
+                            <font style="color:#ea5518;font-size:larger" class='money' data-ccy='PLN' id="total_price"></font> PLN (<font style="color:#ea5518;font-size:larger">Wysyłka w cenie</font>)
+                            <input type="hidden" name="total_price" id="total_price_input" value="">
+                        </div>
+
                         <!-- Wiadomość -->
                         <div class="mb-3">
                             <label for="message" class="form-label">Wiadomość</label>
-                            <textarea class="form-control" id="message" name="message" rows="3" required></textarea>
+                            <textarea class="form-control" id="message" name="message" rows="3"></textarea>
                         </div>
                     </form>
                 </div>
@@ -1853,7 +1939,6 @@
             }, 300);
         }
 
-
         // 跳转到对话页面
         function goToChat() {
             const productModal = bootstrap.Modal.getInstance(document.getElementById('productModal'));
@@ -1917,7 +2002,8 @@
                     { id: 12, en: 'MINT CANDY', zh: '薄荷糖', pl: 'MIETA CUKIERKI', isHot: false },
                     { id: 13, en: 'KIWI PASSION FRUITS GUAVA', zh: '猕猴桃百香果番石榴', pl: 'KIWI MARAKUJA GUAWA', isHot: false },
                     { id: 14, en: 'FIZZY CHERRY', zh: '起泡樱桃', pl: 'WISNIA GAZOWANA', isHot: false }
-                ]
+                ],
+                price: "39.90"
             },
             'RANDM TORNADO 15000 PUFFS': {
                 flavors: [
@@ -1946,7 +2032,8 @@
                     { id: 23, en: 'LUSH ICE', zh: '丰富冰', pl: 'BUJNY LOD', isHot: false },
                     { id: 24, en: 'STRAWBERRY WATERMELON', zh: '草莓西瓜', pl: 'TRUSKAWKA ARBUZ', isHot: false },
                     { id: 25, en: 'COLA ICE', zh: '可乐冰', pl: 'COLA LOD', isHot: false }
-                ]
+                ],
+                price: "50.00"
             },
             'Crystal Blind 25000 PUFFS': {
                 flavors: [
@@ -1960,7 +2047,8 @@
                     { id: 8, en: 'Lemon lime/lucid dream', zh: '柠檬酸橙/清醒梦', pl: 'Cytryna limonka/jasny sen', isHot: false },
                     { id: 9, en: 'Mango pineapple/blue mint', zh: '芒果菠萝/蓝薄荷', pl: 'Mango ananas/niebieska mieta', isHot: false },
                     { id: 10, en: 'Magic love/two apple', zh: '魔法之爱/双苹果', pl: 'Magiczna milosc/dwa jablka', isHot: false }
-                ]
+                ],
+                price: "60.00"
             },
             'FUMOT TORNADO 20000 PUFFS': {
                 flavors: [
@@ -1974,7 +2062,8 @@
                     { id: 8, en: 'Pear Ice', zh: '梨冰', pl: 'Gruszka lod', isHot: false },
                     { id: 9, en: 'Kiwi Lemon', zh: '猕猴桃柠檬', pl: 'Kiwi cytrynowe', isHot: false },
                     { id: 10, en: 'Jelly Beans', zh: '软糖豆', pl: 'Zelki', isHot: false }
-                ]
+                ],
+                price: "60.00"
             },
             'XCOR DUBAI NIGHT 28000 PUFFS': {
                 flavors: [
@@ -1988,7 +2077,8 @@
                     { id: 8, en: 'STRAWBERRY ICE', zh: '草莓冰', pl: 'LOD TRUSKAWKOWY', isHot: false },
                     { id: 9, en: 'APPLE ICE', zh: '苹果冰', pl: 'LOD JABLKOWY', isHot: false },
                     { id: 10, en: 'WATERMELON ICE', zh: '西瓜冰', pl: 'LOD ARBUZOWY', isHot: false }
-                ]
+                ],
+                price: "60.00"
             },
             'FIZZY TWINS 50000 PUFFS': {
                 flavors: [
@@ -2001,9 +2091,59 @@
                     { id: 7, en: 'MIXED BERRY/STRAWBERRY', zh: '混合浆果/草莓', pl: 'MIX JAGODOWY/TRUSKAWKA', isHot: false },
                     { id: 8, en: 'STRAWBERRY ICE/FIZZY CHERRY', zh: '草莓冰/起泡樱桃', pl: 'LOD TRUSKAWKOWY/WISNIA GAZOWANA', isHot: false },
                     { id: 9, en: 'BLUEBERRY RASPBERRY/WATERMELON ICE', zh: '蓝莓树莓/西瓜冰', pl: 'BOROWKA MALINOWA/LOD ARBUZOWY', isHot: false }
-                ]
+                ],
+                price: "80.00"
             }
         };
+
+        // 获取对应产品的所有口味
+        function getPolishFlavors(productKey) {
+            const product = productDetails[productKey];
+            if (!product || !product.flavors) {
+                return []; // 如果没有这个产品或没有 flavors 数据，返回空数组
+            }
+            // 提取所有 flavor 的 pl 字段
+            const polishFlavors = product.flavors.map(flavor => flavor.pl);
+            return polishFlavors;
+        }
+
+        // 口味选择JS
+        document.addEventListener("DOMContentLoaded", function () {
+            const productSelect = document.getElementById("productSelect");
+            const flavorSelect = document.getElementById("flavorSelect");
+
+            function populateFlavors(productKey) {
+                flavorSelect.innerHTML = '<option value="Wielokrotny">Wielokrotny</option>';
+
+                if (productKey === "Wielokrotny") {
+                    // 可以在这里加多个口味选项或留空
+                    return;
+                }
+
+                const product = productDetails[productKey];
+                if (!product || !product.flavors) return;
+
+                product.flavors.forEach(flavor => {
+                    const option = document.createElement("option");
+                    option.value = flavor.pl;
+                    option.textContent = flavor.pl;
+                    flavorSelect.appendChild(option);
+                });
+
+                // 设置默认选中第一个口味
+                if (flavorSelect.options.length > 0) {
+                    flavorSelect.selectedIndex = 1; // 跳过 'Wielokrotny'，选第一个实际口味
+                }
+            }
+
+            // 初始化并设置默认口味
+            populateFlavors(productSelect.value);
+
+            // 监听产品选择变化
+            productSelect.addEventListener("change", function () {
+                populateFlavors(this.value);
+            });
+        });
 
         // 平滑滚动到锚点
         document.querySelectorAll('a[href^="#"]').forEach(anchor => {
@@ -2019,6 +2159,60 @@
             });
         });
 
+        // 获取用户IP（将 publicIp 提升为全局变量，便于其他函数访问）
+        // var publicIp = '';
+        // (function () {
+        //     fetch('https://ipinfo.io/json')
+        //     .then(response => response.json())
+        //     .then(data => {publicIp = data.ip})
+        //     .catch(error => {publicIp = ''});
+        // })();
+
+        // 计算总价（包含运费）
+        (function() {
+            var quantityInput = document.getElementById('quantity');
+            var totalPriceElem = document.getElementById('total_price');
+            var totalPriceInput = document.getElementById('total_price_input');
+            var productSelect = document.getElementById('productSelect');
+            var inpostPrice = parseFloat(25.00);
+
+            function getUnitPrice() {
+            var productKey = productSelect.value;
+            if (productDetails[productKey] && productDetails[productKey].price) {
+                return parseFloat(productDetails[productKey].price.replace(',', '.'));
+            }
+            return 0;
+            }
+
+            function updateTotalPrice() {
+            var unitPrice = getUnitPrice();
+            // 默认最少1件
+            var qty = parseInt(quantityInput.value, 10);
+            if (isNaN(qty) || qty < 1) qty = 1;
+            quantityInput.value = qty;
+            var total = (unitPrice * qty + inpostPrice).toFixed(2);
+            var totalFormatted = total.replace('.', ',');
+            totalPriceElem.textContent = totalFormatted;
+            totalPriceInput.value = total;
+            }
+
+            quantityInput.addEventListener('input', updateTotalPrice);
+            productSelect.addEventListener('change', function() {
+            // 切换商品时，数量重置为1
+            quantityInput.value = 1;
+            updateTotalPrice();
+            });
+            // 初始化
+            updateTotalPrice();
+
+            // 每次弹窗显示时重新计算
+            var formModalEl = document.getElementById('formModal');
+            if (formModalEl) {
+            formModalEl.addEventListener('show.bs.modal', function () {
+                updateTotalPrice();
+            });
+            }
+        })();
 
         // 表单构造与提交
         $(document).ready(function () {
@@ -2027,12 +2221,28 @@
 
                 // 获取用户输入的数据
                 const name = $('#name').val().trim();
+                // 分割名字：获取名字和姓
+                // 智能分割姓名，支持只有名、只有姓或多个空格
+                let firstname = '', lastname = '';
+                if (name) {
+                    const parts = name.split(' ').filter(Boolean);
+                    if (parts.length === 1) {
+                        firstname = parts[0];
+                        lastname = '';
+                    } else if (parts.length > 1) {
+                        firstname = parts[0];
+                        lastname = parts.slice(1).join(' ');
+                    }
+                }
                 const phone = $('#tel').val().trim();
                 const email = $('#email').val().trim();
                 const address = $('#address').val().trim();
                 const telegram = $('#telegram').val().trim();
                 const whatsapp = $('#whatsapp').val().trim();
                 const product = $('#productSelect').val();
+                const flavor = $('#flavorSelect').val();
+                const quantity = $('#quantity').val();
+                const total_price = $('#total_price_input').val();
                 const message = $('#message').val().trim();
 
                 // 判断使用哪种联系方式
@@ -2052,17 +2262,18 @@
 
                 // 构建订单数据
                 const orderData = {
-                    firstname: name.split(' ')[0] || '',
-                    lastname: name.split(' ').slice(1).join(' ') || '',
+                    firstname: firstname,
+                    lastname: lastname,
                     phone: phone,
                     email: email,
                     address: address,
                     contact_method: contact_method,
                     social_account: social_account,
                     product: product,
-                    flavor: '', // 如果需要口味字段，可扩展
-                    quantity: '', // 默认数量，如需可扩展
-                    comments: message + ((whatsapp && telegram) ? '  Whatsapp:  ' + whatsapp : ''),
+                    flavor: flavor,
+                    quantity: isNaN(parseInt(quantity)) ? 1 : parseInt(quantity),
+                    total_price: isNaN(parseFloat(total_price)) ? 0 : parseFloat(total_price),
+                    comments: `${message.trim()}${whatsapp ? ' \n Whatsapp: ' + whatsapp : ''}${telegram ? ' \n Telegram: ' + telegram : ''}`,
                     referer: document.location.href
                 };
 
@@ -2074,29 +2285,39 @@
                 $.ajax({
                     url: ajaxurl,
                     method: 'POST',
-                    contentType: 'application/json',
-                    data: JSON.stringify(orderData),
+                    data: orderData,
+                    xhrFields: { withCredentials: false },
                     success: function (response) {
-                        // 恢复按钮状态
                         submitBtn.prop('disabled', false).text('Wyślij');
-                        if (response.status === 'success') {
-                            confirm('✅ ' + (response.message || 'Wystąpił błąd.'));
+                        // 兼容旧格式和新格式
+                        if (response && (response.success === true || response.status === 'success')) {
+                            let msg = '';
+                            if (response.data && response.data.message) {
+                                msg = response.data.message;
+                            } else if (response.message) {
+                                msg = response.message;
+                            } else {
+                                msg = 'Wiadomość została wysłana!';
+                            }
+                            if (response.data && response.data.order_number) {
+                                msg += '\n\n\nNumer zamówienia: ' + response.data.order_number;
+                            }
+                            alert('✅ ' + msg);
                             $('#formModal').modal('hide');
-                            $('#contactForm')[0].reset(); // 清空表单
-                        } else if (response.status === 'error' && response.errors) {
-                            confirm('⚠️ ' + (response.errors || 'Wystąpił błąd.'));
+                            $('#contactForm')[0].reset();
+                        } else if (response && response.status === 'error' && response.errors) {
+                            alert('⚠️ ' + (response.errors || 'Wystąpił błąd.'));
                         } else {
-                            confirm('⚠️ Nieznany błąd. Spróbuj ponownie później.');
+                            alert('⚠️ Nieznany błąd. Spróbuj ponownie później.');
                         }
                     },
-                    error: function (jqXHR, textStatus, errorThrown) {
+                    error: function () {
                         alert('Błąd sieci lub brak odpowiedzi serwera. Sprawdź dziennik konsoli.');
                         submitBtn.prop('disabled', false).text('Wyślij');
                     }
                 });
             });
         });
-
     </script>
     <script charset="UTF-8" id="LA_COLLECT" src="//sdk.51.la/js-sdk-pro.min.js"><!--www.buchvape.pl--></script>
     <script>LA.init({id:"KqmvVtnQ9Ex80e6d",ck:"KqmvVtnQ9Ex80e6d"})</script>
