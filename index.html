@@ -1,0 +1,2094 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" href="https://www.buchmistrz.pl/favicon.ico" type="image/x-icon">
+	<link rel="shortcut icon" href="https://www.buchmistrz.pl/favicon.ico" />
+	<link rel="icon" href="https://www.buchmistrz.pl/favicon.png" type="image/png">
+    <title>🚬E-papierosy - Stylowe, Przenośne i Gotowe E-papierosy Jednorazowe. Kup Online!</title>
+    <meta name="keywords" content="E-papierosy, E-papierosy online, E-papierosy gotowe, E-papierosy jednorazowe, E-papierosy przenośne, E-papierosy stylowe, E-papierosy gotowe online, E-papierosy jednorazowe online, E-papierosy przenośne online, E-papieros" />
+    <meta name="description" content="Szukasz stylowego e-papierosa? Buch Mistrz to dobry wybór – nowoczesne i gotowe jednorazówki z fajnymi smakami! ✨ Kup szybko online lub sprawdź hurtową ofertę. Dobre jakość i wygoda na co dzień. Zaufaj liderowi – Buch Mistrz! 🚬🔥">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="🚬E-papierosy - Stylowe, Przenośne i Gotowe E-papierosy Jednorazowe. Kup Online!" />
+    <meta property="og:description" content="Szukasz stylowego e-papierosa? Buch Mistrz to dobry wybór – nowoczesne i gotowe jednorazówki z fajnymi smakami! ✨ Kup szybko online lub sprawdź hurtową ofertę. Dobre jakość i wygoda na co dzień. Zaufaj liderowi – Buch Mistrz! 🚬🔥" />
+    <meta property="og:image" content="https://cdn.xcorvape.com/wp-content/uploads/2024/07/%E7%94%BB%E6%9D%BF-1.png" />
+    <meta property="og:url" content="https://www.buchvape.pl" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="E-papierosy Store" />
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css" integrity="sha512-jnSuA4Ss2PkkikSOLtYs8BlYIeeIK1h99ty4YfvRPAlzr377vr3CXDb7sb7eEEBYjDtcYj+AjBH3FLv5uSJuXg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        body {
+            padding-top: 80px;
+        }
+        
+        /* 美化导航栏 */
+        .navbar {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%) !important;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            padding: 15px 0;
+        }
+        
+        .navbar-brand {
+            color: white !important;
+            font-size: 1.5rem;
+            font-weight: 700;
+        }
+
+        .navbar-brand img {
+            width: 150px;
+            height: 40px;
+        }
+        
+        .navbar-nav .nav-link {
+            color: rgba(255,255,255,0.9) !important;
+            font-weight: 500;
+            padding: 8px 16px !important;
+            border-radius: 25px;
+            transition: all 0.3s ease;
+        }
+        
+        .navbar-nav .nav-link:hover,
+        .navbar-nav .nav-link.active {
+            background: rgba(255,255,255,0.2);
+            color: white !important;
+            transform: translateY(-2px);
+        }
+        
+        .navbar-toggler {
+            border: 2px solid rgba(255,255,255,0.3);
+        }
+        
+        .navbar-toggler-icon {
+            background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.8%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+        }
+        
+        /* 搜索框样式 */
+        .search-container {
+            position: relative;
+            max-width: 300px;
+        }
+        
+        .search-input {
+            background: rgba(255,255,255,0.1);
+            border: 2px solid rgba(255,255,255,0.3);
+            color: white;
+            border-radius: 25px;
+            padding: 8px 40px 8px 15px;
+            width: 100%;
+        }
+        
+        .search-input::placeholder {
+            color: rgba(255,255,255,0.7);
+        }
+        
+        .search-input:focus {
+            background: rgba(255,255,255,0.2);
+            border-color: rgba(255,255,255,0.5);
+            box-shadow: none;
+            color: white;
+        }
+        
+        .search-btn {
+            position: absolute;
+            right: 5px;
+            top: 50%;
+            transform: translateY(-50%);
+            background: none;
+            border: none;
+            color: rgba(255,255,255,0.7);
+            padding: 5px 10px;
+        }
+        
+        .product-card {
+            position: relative;
+            overflow: hidden;
+            border-radius: 15px;
+            box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+            transition: all 0.3s ease;
+            margin-bottom: 0px;
+        }
+        
+        .product-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 35px rgba(0,0,0,0.2);
+        }
+        
+        .product-image {
+            width: 100%;
+            /* height: 250px; */
+            object-fit: cover;
+            transition: transform 0.3s ease;
+        }
+        
+        .product-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: linear-gradient(135deg, rgba(102, 126, 234, 0.9) 0%, rgba(118, 75, 162, 0.9) 100%);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            opacity: 0;
+            transition: opacity 0.3s ease;
+        }
+        
+        .product-card:hover .product-overlay {
+            opacity: 1;
+        }
+        
+        .product-card:hover .product-image {
+            transform: scale(1.1);
+        }
+        
+        .product-title {
+            padding: 20px;
+            background: white;
+            text-align: center;
+            font-weight: 600;
+            color: #333;
+            font-size: 1.1rem;
+        }
+        
+        .contact-buttons {
+            padding: 20px;
+            background: white;
+            display: flex;
+            justify-content: space-around;
+            gap: 15px;
+            margin-bottom: 30px;
+        }
+        
+        .btn-telegram {
+            background: linear-gradient(135deg, #0088cc 0%, #006699 100%);
+            color: white;
+            border: none;
+            flex: 1;
+            padding: 12px;
+            border-radius: 25px;
+            font-weight: 500;
+            transition: all 0.3s ease;
+        }
+        
+        .btn-telegram:hover {
+            background: linear-gradient(135deg, #006699 0%, #004466 100%);
+            color: white;
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(0,136,204,0.4);
+        }
+        
+        .btn-whatsapp {
+            background: linear-gradient(135deg, #25d366 0%, #1da851 100%);
+            color: white;
+            border: none;
+            flex: 1;
+            padding: 12px;
+            border-radius: 25px;
+            font-weight: 500;
+            transition: all 0.3s ease;
+        }
+        
+        .btn-whatsapp:hover {
+            background: linear-gradient(135deg, #1da851 0%, #128c3c 100%);
+            color: white;
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(37,211,102,0.4);
+        }
+
+        .btn-wpforms {
+            background: linear-gradient(135deg, #8e44ad 0%, #9b59b6 100%) !important;
+            color: white;
+            border: none;
+            flex: 1;
+            padding: 12px;
+            border-radius: 25px;
+            font-weight: 500;
+            transition: all 0.3s ease;
+        }
+
+        .btn-wpforms:hover {
+            background: linear-gradient(135deg, #7d3c98 0%, #a569bd 100%) !important;
+            color: white;
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(142, 68, 173, 0.4);
+        }
+        
+        .section-title {
+            text-align: center;
+            margin: 40px 0 60px 0;
+            font-weight: 700;
+            color: #333;
+            font-size: 2.5rem;
+        }
+
+        .accordion-button {
+            font-weight: 600;
+        }
+        .accordion-body {
+            background-color: #f9f9f9;
+        }
+        
+        /* 模态框居中和美化 */
+        .modal-dialog {
+            display: flex;
+            align-items: center;
+            min-height: calc(100vh - 60px);
+            margin: 30px auto;
+        }
+        
+        .modal-content {
+            border-radius: 15px;
+            border: none;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+        }
+        
+        .modal-header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border-radius: 15px 15px 0 0;
+            padding: 20px 30px;
+        }
+        
+        .modal-title {
+            font-weight: 700;
+            font-size: 1.3rem;
+        }
+        
+        .modal-header .btn-close {
+            filter: invert(1);
+            opacity: 0.8;
+        }
+        
+        .modal-header .btn-close:hover {
+            opacity: 1;
+        }
+        
+        .modal-body {
+            padding: 30px;
+        }
+        
+        /* 面包屑导航 */
+        .breadcrumb-container {
+            background: #f8f9fa;
+            padding: 15px 30px;
+            border-bottom: 1px solid #dee2e6;
+        }
+        
+        .breadcrumb {
+            margin: 0;
+            background: none;
+        }
+        
+        .breadcrumb-item a {
+            color: #667eea;
+            text-decoration: none;
+        }
+        
+        .breadcrumb-item.active {
+            color: #6c757d;
+        }
+        
+        /* 产品表格样式 */
+        .flavor-table {
+            margin-top: 20px;
+        }
+        
+        .flavor-table th {
+            background: #667eea;
+            color: white;
+            font-weight: 600;
+            text-align: center;
+            padding: 12px 8px;
+            border: 1px solid #5a6fd8;
+        }
+        
+        .flavor-table td {
+            padding: 10px 8px;
+            border: 1px solid #dee2e6;
+            text-align: center;
+            vertical-align: middle;
+        }
+        
+        .flavor-table tbody tr:nth-child(even) {
+            background-color: #f8f9fa;
+        }
+        
+        .flavor-table tbody tr:hover {
+            background-color: #e3f2fd;
+        }
+        
+        .hot-flavor {
+            background-color: #fff3cd !important;
+            font-weight: 500;
+        }
+        
+
+        #formModal {
+            z-index: 1100 !important;
+        }
+
+        /* 返回顶部按钮 */
+        .back-to-top {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            width: 50px;
+            height: 50px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border: none;
+            border-radius: 50%;
+            font-size: 20px;
+            cursor: pointer;
+            opacity: 0;
+            visibility: hidden;
+            transition: all 0.3s ease;
+            z-index: 1000;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+        }
+        
+        .back-to-top.show {
+            opacity: 1;
+            visibility: visible;
+        }
+        
+        .back-to-top:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 6px 20px rgba(0,0,0,0.3);
+        }
+        
+        /* 加载动画 */
+        .loading-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(255,255,255,0.9);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            z-index: 9999;
+            opacity: 1;
+            transition: opacity 0.5s ease;
+        }
+        
+        .loading-overlay.hide {
+            opacity: 0;
+            pointer-events: none;
+        }
+        
+        .spinner {
+            width: 50px;
+            height: 50px;
+            border: 4px solid #f3f3f3;
+            border-top: 4px solid #667eea;
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+        }
+        
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+        
+        /* 美化页脚 */
+        footer {
+            background: linear-gradient(135deg, #2c3e50 0%, #34495e 100%);
+            color: #ecf0f1;
+        }
+        
+        footer h5 {
+            color: #3498db;
+            font-weight: 700;
+            margin-bottom: 20px;
+            position: relative;
+        }
+        
+        footer h5::after {
+            content: '';
+            position: absolute;
+            bottom: -8px;
+            left: 0;
+            width: 30px;
+            height: 3px;
+            background: #3498db;
+            border-radius: 2px;
+        }
+        
+        footer .text-muted {
+            color: #bdc3c7 !important;
+            line-height: 1.8;
+        }
+        
+        footer a {
+            color: #bdc3c7;
+            text-decoration: none;
+            transition: all 0.3s ease;
+            padding: 5px 0;
+            display: inline-block;
+        }
+        
+        footer a:hover {
+            color: #3498db;
+            transform: translateX(5px);
+        }
+        
+        footer .social-links a {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 40px;
+            height: 40px;
+            background: rgba(52, 152, 219, 0.1);
+            border-radius: 50%;
+            margin-right: 10px;
+            transition: all 0.3s ease;
+        }
+        
+        footer .social-links a:hover {
+            background: #3498db;
+            color: white;
+            transform: translateY(-3px);
+        }
+        
+        footer .contact-info i {
+            color: #3498db;
+            width: 20px;
+            margin-right: 10px;
+        }
+        
+        footer hr {
+            border-color: #34495e;
+            margin: 20px 0 10px 0;
+        }
+        
+        /* 响应式优化 */
+        @media (max-width: 768px) {
+            .search-container {
+                max-width: 200px;
+                margin-top: 10px;
+            }
+            
+            .section-title {
+                font-size: 2rem;
+            }
+            
+            .back-to-top {
+                bottom: 20px;
+                right: 20px;
+                width: 45px;
+                height: 45px;
+                font-size: 18px;
+            }
+        }
+        #pro-desc{display: none;}
+    </style>
+    <script>
+        const ajaxurl = 'http://www.wordpress.local/wp-json/v1/order/submit';
+        const telegramNumber = 'buch_mistrz'; // TG账号
+        const whatsappNumber = '+48729250699';  // WA账号
+        const telegramgroup = '+pP3RvnRfsgkyNDU8';  // TG群组
+        const whatsappgroup = 'IL4rxWm7hkZJ6XM3CyC1lC'; // WA群组
+        const chatmessage = 'Cześć, jestem zainteresowany Twoim produktem i chciałbym uzyskać więcej informacji.';
+    </script>
+    <!-- JSON-LD Structured Data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "Buch Mistrz",
+        "url": "https://www.buchmistrz.pl",
+        "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://www.buchmistrz.pl/?s={search_term_string}",
+        "query-input": "required name=search_term_string"
+        }
+    }
+    </script>
+
+    <!-- FAQPage Schema -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+        {
+            "@type": "Question",
+            "name": "Czy produkty są dostępne na magazynie?",
+            "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Tak, wszystkie produkty wymienione na stronie są aktualnie dostępne na magazynie."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "Jak długo trwa dostawa?",
+            "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Dostawa zajmuje od 1 do 3 dni roboczych w Polsce. Opcja kurierska i paczkomaty."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "Jak mogę skontaktować się z obsługą klienta?",
+            "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Możesz skorzystać z formularza kontaktowego, WhatsAppa lub Telegrama. Linki znajdują się u dołu strony."
+            }
+        }
+        ]
+    }
+    </script>
+
+    <!-- Organization Schema -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Buch Mistrz",
+        "url": "https://www.buchmistrz.pl/",
+        "logo": "https://www.buchmistrz.pl/wp-content/themes/vape/assets/images/logo.png",
+        "contactPoint": [
+        {
+            "@type": "ContactPoint",
+            "telephone": "+48729250699",
+            "contactType": "customer service",
+            "areaServed": "PL",
+            "availableLanguage": ["Polish", "English"]
+        }
+        ],
+        "sameAs": [
+        "https://t.me/buch_mistrz",
+        "https://wa.me/+48729250699"
+        ]
+    }
+    </script>
+
+    <!-- Product Schema - XCOR 12000 PUFFS -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "XCOR 12000 PUFFS",
+        "description": "E-papieros jednorazowy z szerokim wachlarzem smaków, idealny na co dzień. Wytrzymały do 12000 puffów.",
+        "brand": {
+        "@type": "Organization",
+        "name": "Buch Mistrz"
+        },
+        "offers": {
+        "@type": "Offer",
+        "priceCurrency": "PLN",
+        "price": "45.00",
+        "availability": "https://schema.org/InStock",
+        "url": "https://www.buchmistrz.pl/products/10.html"
+        },
+        "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.8",
+        "reviewCount": "1241"
+        }
+    }
+    </script>
+    
+    <!-- Product Schema - FUMOT TORNADO 20000 PUFFS -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "FUMOT TORNADO 20000 PUFFS",
+        "description": "Wysokiej jakości e-papieros jednorazowy z intensywnymi smakami owocowymi i mentolowymi. Idealny dla zaawansowanych użytkowników.",
+        "brand": {
+        "@type": "Organization",
+        "name": "Buch Mistrz"
+        },
+        "offers": {
+        "@type": "Offer",
+        "priceCurrency": "PLN",
+        "price": "50.00",
+        "availability": "https://schema.org/InStock",
+        "url": "https://www.buchmistrz.pl/products/16.html"
+        },
+        "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.7",
+        "reviewCount": "1995"
+        }
+    }
+    </script>
+    
+    <!-- Product Schema - Crystal Blind 25000 PUFFS -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "Crystal Blind 25000 PUFFS",
+        "description": "E-papieros jednorazowy o wyjątkowych dwusmakowych kombinacjach. Wytrzymały do 25000 puffów.",
+        "brand": {
+        "@type": "Organization",
+        "name": "Buch Mistrz"
+        },
+        "offers": {
+        "@type": "Offer",
+        "priceCurrency": "PLN",
+        "price": "60.00",
+        "availability": "https://schema.org/InStock",
+        "url": "https://www.buchmistrz.pl/products/14.html"
+        },
+        "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "reviewCount": "1880"
+        }
+    }
+    </script>
+
+    <!-- Product Schema - FIZZY TWINS 50000 PUFFS -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "FIZZY TWINS 50000 PUFFS",
+        "description": "E-papieros jednorazowy z dwusmakową formułą, zaprojektowany na 50 000 puffów. Idealny dla wymagających użytkowników.",
+        "brand": {
+        "@type": "Organization",
+        "name": "Buch Mistrz"
+        },
+        "offers": {
+        "@type": "Offer",
+        "priceCurrency": "PLN",
+        "price": "80.00",
+        "availability": "https://schema.org/InStock",
+        "url": "https://www.buchmistrz.pl/products/20.html"
+        },
+        "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.7",
+        "reviewCount": "1560"
+        }
+    }
+    </script>
+
+    <!-- Product Schema - RANDM TORNADO 15000 PUFFS -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "RANDM TORNADO 15000 PUFFS",
+        "description": "Nowoczesny e-papieros jednorazowy z intensywnymi smakami owocowymi i mentolowymi. Wytrzymały do 15 000 puffów.",
+        "brand": {
+        "@type": "Organization",
+        "name": "Buch Mistrz"
+        },
+        "offers": {
+        "@type": "Offer",
+        "priceCurrency": "PLN",
+        "price": "50.00",
+        "availability": "https://schema.org/InStock",
+        "url": "https://www.buchmistrz.pl/products/12.html"
+        },
+        "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.6",
+        "reviewCount": "2455"
+        }
+    }
+    </script>
+
+    <!-- Product Schema - XCOR DUBAI NIGHT 28000 PUFFS -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "XCOR DUBAI NIGHT 28000 PUFFS",
+        "description": "E-papieros jednorazowy o wyjątkowym smaku nocnego Dubaju – idealny balans między intensywnością a subtelnością aromatów.",
+        "brand": {
+        "@type": "Organization",
+        "name": "Buch Mistrz"
+        },
+        "offers": {
+        "@type": "Offer",
+        "priceCurrency": "PLN",
+        "price": "60.00",
+        "availability": "https://schema.org/InStock",
+        "url": "https://www.buchmistrz.pl/products/18.html"
+        },
+        "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "reviewCount": "1975"
+        }
+    }
+    </script>
+</head>
+<body>
+    <!-- 加载动画 -->
+    <div class="loading-overlay" id="loadingOverlay">
+        <div class="spinner"></div>
+    </div>
+
+    <!-- 导航栏 -->
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+            <h1 title="Buch Mistrz E-papieros">
+                <a class="navbar-brand" href="/">
+                    <!--<i class="fas fa-store me-2"></i>Buch Mistrz-->
+                    <img src="https://www.buchmistrz.pl/wp-content/themes/vape/assets/images/logo.png" alt="Buch Mistrz E-papieros" class="logo"></img>
+                </a>
+            </h1>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#products">
+                            <i class="fas fa-box me-1"></i>Produkty
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="javascript:;" onclick="selectChatApp('telegram')">
+                            <i class="fab fa-telegram me-1"></i>Telegram
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="javascript:;" onclick="selectChatApp('whatsapp')">
+                            <i class="fab fa-whatsapp me-1"></i>WhatsApp
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="javascript:;" onclick="gotoForm('Wielokrotny')">
+                            <i class="fab fa-wpforms me-1"></i>Komunikat
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="javascript:;" onclick="openTelegramGroup()">
+                            <i class="fab fa-telegram me-1"></i>Telegram Group
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="javascript:;" onclick="openWhatsAppGroup()">
+                            <i class="fab fa-whatsapp me-1"></i>WhatsApp Group
+                        </a>
+                    </li>
+                </ul>
+                <!-- 搜索框 -->
+                <div class="search-container">
+                    <input type="text" class="form-control search-input" placeholder="Szukaj produktów..." id="searchInput">
+                    <button class="search-btn" onclick="searchProducts()">
+                        <i class="fas fa-search"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 产品简略展示区 -->
+    <section class="py-5" id="products">
+        <div class="container">
+            <h2 class="section-title">Wybrane produkty</h2>
+            <div class="row" id="productGrid">
+                <div class="col-lg-4 col-md-6 col-sm-6" data-product="XCOR 12000 PUFFS">
+                    <div class="product-card">
+                        <img decoding="async" loading="lazy"  src="https://www.buchmistrz.pl/wp-content/uploads/632d21d4-738a-40be-97a0-403d052e2a06.png" alt="XCOR 12000 PUFFS" class="product-image">
+                        <div class="product-overlay">
+                            <button class="btn btn-light btn-lg" data-bs-toggle="modal" data-bs-target="#productModal" onclick="showProductDetails('XCOR 12000 PUFFS')">
+                                <i class="fas fa-eye me-2"></i>Zobacz szczegóły
+                            </button>
+                        </div>
+                        <div class="product-title">XCOR 12000 PUFFS</div>
+                    </div>
+                    <div class="contact-buttons">
+                        <button class="btn btn-telegram" onclick="goToChat()">
+                            <i class="fab fa-whatsapp me-1"></i>Dialog
+                        </button>
+                        <button class="btn btn-whatsapp" onclick="gotoForm('XCOR 12000 PUFFS')">
+                            <i class="fab fa-wpforms me-1"></i>Komunikat
+                        </button>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6" data-product="RANDM TORNADO 15000 PUFFS">
+                    <div class="product-card">
+                        <img decoding="async" loading="lazy"  src="https://www.buchmistrz.pl/wp-content/uploads/6483a4ae-7898-4343-a495-f3dc39c49a5f.png" alt="RANDM TORNADO 15000 PUFFS" class="product-image">
+                        <div class="product-overlay">
+                            <button class="btn btn-light btn-lg" data-bs-toggle="modal" data-bs-target="#productModal" onclick="showProductDetails('RANDM TORNADO 15000 PUFFS')">
+                                <i class="fas fa-eye me-2"></i>Zobacz szczegóły
+                            </button>
+                        </div>
+                        <div class="product-title">RANDM TORNADO 15000 PUFFS</div>
+                    </div>
+                    <div class="contact-buttons">
+                        <button class="btn btn-telegram" onclick="goToChat()">
+                            <i class="fab fa-whatsapp me-1"></i>Dialog
+                        </button>
+                        <button class="btn btn-whatsapp" onclick="gotoForm('RANDM TORNADO 15000 PUFFS')">
+                            <i class="fab fa-wpforms me-1"></i>Komunikat
+                        </button>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6" data-product="Crystal Blind 25000 PUFFS">
+                    <div class="product-card">
+                        <img decoding="async" loading="lazy"  src="https://www.buchmistrz.pl/wp-content/uploads/3983bf52-f027-4e26-93fb-12a54eea9e7f.png" alt="Crystal Blind 25000 PUFFS" class="product-image">
+                        <div class="product-overlay">
+                            <button class="btn btn-light btn-lg" data-bs-toggle="modal" data-bs-target="#productModal" onclick="showProductDetails('Crystal Blind 25000 PUFFS')">
+                                <i class="fas fa-eye me-2"></i>Zobacz szczegóły
+                            </button>
+                        </div>
+                        <div class="product-title">Crystal Blind 25000 PUFFS</div>
+                    </div>
+                    <div class="contact-buttons">
+                        <button class="btn btn-telegram" onclick="goToChat()">
+                            <i class="fab fa-whatsapp me-1"></i>Dialog
+                        </button>
+                        <button class="btn btn-whatsapp" onclick="gotoForm('Crystal Blind 25000 PUFFS')">
+                            <i class="fab fa-wpforms me-1"></i>Komunikat
+                        </button>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6" data-product="FUMOT TORNADO 20000 PUFFS">
+                    <div class="product-card">
+                        <img decoding="async" loading="lazy"  src="https://www.buchmistrz.pl/wp-content/uploads/fumot-digital-box-20000.png" alt="FUMOT TORNADO 20000 PUFFS" class="product-image">
+                        <div class="product-overlay">
+                            <button class="btn btn-light btn-lg" data-bs-toggle="modal" data-bs-target="#productModal" onclick="showProductDetails('FUMOT TORNADO 20000 PUFFS')">
+                                <i class="fas fa-eye me-2"></i>Zobacz szczegóły
+                            </button>
+                        </div>
+                        <div class="product-title">FUMOT TORNADO 20000 PUFFS</div>
+                    </div>
+                    <div class="contact-buttons">
+                        <button class="btn btn-telegram" onclick="goToChat()">
+                            <i class="fab fa-whatsapp me-1"></i>Dialog
+                        </button>
+                        <button class="btn btn-whatsapp" onclick="gotoForm('FUMOT TORNADO 20000 PUFFS')">
+                            <i class="fab fa-wpforms me-1"></i>Komunikat
+                        </button>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6" data-product="XCOR DUBAI NIGHT 28000 PUFFS">
+                    <div class="product-card">
+                        <img decoding="async" loading="lazy"  src="https://www.buchmistrz.pl/wp-content/uploads/DS17%E9%BB%91%E8%89%B2-1.png" alt="XCOR DUBAI NIGHT 28000 PUFFS" class="product-image">
+                        <div class="product-overlay">
+                            <button class="btn btn-light btn-lg" data-bs-toggle="modal" data-bs-target="#productModal" onclick="showProductDetails('XCOR DUBAI NIGHT 28000 PUFFS')">
+                                <i class="fas fa-eye me-2"></i>Zobacz szczegóły
+                            </button>
+                        </div>
+                        <div class="product-title">XCOR DUBAI NIGHT 28000 PUFFS</div>
+                    </div>
+                    <div class="contact-buttons">
+                        <button class="btn btn-telegram" onclick="goToChat()">
+                            <i class="fab fa-whatsapp me-1"></i>Dialog
+                        </button>
+                        <button class="btn btn-whatsapp" onclick="gotoForm('XCOR DUBAI NIGHT 28000 PUFFS')">
+                            <i class="fab fa-wpforms me-1"></i>Komunikat
+                        </button>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6" data-product="FIZZY TWINS 50000 PUFFS">
+                    <div class="product-card">
+                        <img decoding="async" loading="lazy"  src="https://www.buchmistrz.pl/wp-content/uploads/Fizzy-Twins-50000Puffs.png.webp" alt="FIZZY TWINS 50000 PUFFS" class="product-image">
+                        <div class="product-overlay">
+                            <button class="btn btn-light btn-lg" data-bs-toggle="modal" data-bs-target="#productModal" onclick="showProductDetails('FIZZY TWINS 50000 PUFFS')">
+                                <i class="fas fa-eye me-2"></i>Zobacz szczegóły
+                            </button>
+                        </div>
+                        <div class="product-title">FIZZY TWINS 50000 PUFFS</div>
+                    </div>
+                    <div class="contact-buttons">
+                        <button class="btn btn-telegram" onclick="goToChat()">
+                            <i class="fab fa-whatsapp me-1"></i>Dialog
+                        </button>
+                        <button class="btn btn-whatsapp" onclick="gotoForm('FIZZY TWINS 50000 PUFFS')">
+                            <i class="fab fa-wpforms me-1"></i>Komunikat
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--产品具体详情区-->
+    <section class="py-5" id="pro-desc"> 
+        <div class="container"> 
+            <!-- XCOR 12000 PUFFS -->
+            <div class="row product-details mb-5">
+                <div class="col-md-6">
+                <img decoding="async" loading="lazy"  src="https://www.buchmistrz.pl/wp-content/uploads/632d21d4-738a-40be-97a0-403d052e2a06.png" alt="XCOR 12000 PUFFS" class="img-fluid">
+                </div>
+                <div class="col-md-6">
+                <h3>XCOR 12000 PUFFS</h3>
+                <p>Jednorazowy e-papieros XCOR oferuje aż do 12,000 wdechów. Idealny dla użytkowników szukających długotrwałej trwałości i intensywnego smaku. Wyposażyliśmy go w dużą pojemność baterii oraz szeroki wybór aromatów owocowych.</p>
+                <ul>
+                    <li><strong>Pojemność:</strong> 12,000 puffs</li>
+                    <li><strong>Liczba smaków:</strong> 14</li>
+                    <li><strong>Pojemność baterii:</strong> 1200 mAh</li>
+                    <li><strong>Stężenie nikotyny:</strong> 50 mg</li>
+                </ul>
+                <a href="#products" class="btn btn-primary">Zobacz szczegóły</a>
+                </div>
+                <div class="col-md-12" id="product-details">
+                    <h2>XCOR 12000 PUFFS – Najwyższa jakość, niepowtarzalny smak i intensywne doznania</h2>
+                    <p>W świecie nowoczesnych produktów do palenia alternatywą dla tradycyjnych papierosów staje się coraz bardziej popularna para elektroniczna. Jednym z najbardziej innowacyjnych produktów na rynku jest <strong>XCOR 12000 PUFFS</strong> – rewelacyjny pre-pod napełniony bogatą kolekcją aromatów, zaprojektowany z myślą o użytkowniku szukającym nie tylko komfortu użytkowania, ale także wyjątkowego smaku i jakości.</p>
+                    <h3><strong>Dlaczego XCOR 12000 PUFFS?</strong></h3>
+                    <p>XCOR 12000 PUFFS to produkt idealnie dopasowany zarówno dla początkujących jak i zaawansowanych użytkowników parowniczych. To jednorazowy pre-pod, który oferuje aż <strong>12 000 pociągnięć</strong>, co sprawia, że nie trzeba martwić się o ładowanie baterii ani wymianę podów. Całość została zaprojektowana tak, by zapewnić maksymalną wygodę, mobilność i trwałość. Dzięki kompaktowej konstrukcji, można go łatwo nosić w kieszeni lub torbie, a jego ergonomia umożliwia intuicyjne korzystanie przez cały dzień.</p>
+                    <p>Urządzenie zostało wyposażone w wysokiej jakości cewkę oraz balans między mocą nikotyny a intensywnością smaku. Zawiera stabilną dawkę soli nikotyny (jeśli produkt taki zawiera), co gwarantuje szybkie spełnienie potrzeb i przyjemność z używania bez nieprzyjemnego uczucia „uderzenia” w gardło.</p>
+                    <hr>
+                    <h3><strong>Rozległa paleta smaków – coś dla każdego gusta</strong></h3>
+                    <img decoding="async" loading="lazy"  src="https://www.buchmistrz.pl/wp-content/uploads/a9ed2458-43d6-4b0c-ac68-4548eeb0f234.png" alt="XCOR 12000 PUFFS">
+                    <p>Jednym z największych atutów XCOR 12000 PUFFS są wyjątkowe kombinacje smakowe, które zostały starannie dobrano, aby zaspokoić nawet najbardziej wymagające podniebienie. W całej gamie dostępnych jest <strong>14 różnych aromatów</strong>, od soczystych owocowych po słodko-mentolowe i klasyczne gumy balonowej. Oto pełna lista smaków:</p>
+                    <ol>
+                    <li><strong>BRUICE</strong> – Subtelny i miękki smak brzoskwinia, idealny dla miłośników delikatnych, naturalnych aromatów.</li>
+                    <li><strong>SOCZYSTA BRZOSKWINIA</strong> – Aromat dojrzałej, soczystej brzoskwiń z nutą letniego słońca.</li>
+                    <li><strong>BORÓWKA AMERYKAŃSKA WIŚNIA ŻURAWINA</strong> – Mieszanka kwaskowych owoców leśnych z intensywnym smakiem wiśni i żurawiny.</li>
+                    <li><strong>BORÓWKA MALINOWA</strong> – Idealna równowaga słodyczy borówki i kwasowości maliny.</li>
+                    <li><strong>MAD NIEBIESKI</strong> – Niebanalny aromat cytrusowo-lodowy z orzeźwiającą nutą.</li>
+                    <li><strong>GUMOWATY MIŚ</strong> – Kultowy smak miękkich cukierków w kształcie misiów, pełne nostalgii i przyjemności.</li>
+                    <li><strong>HUBBA BUBBA</strong> – Słynna marka gumy balonowej, która wraca teraz w formie pary – słodka, intensywna i zabawna.</li>
+                    <li><strong>KRĘGLE</strong> – Smak kolorowych cukierków Skittles, pełne barw i energii.</li>
+                    <li><strong>WINOGRONO SAKURA</strong> – Rzadki i egzotyczny smak winogrona z Japonii, subtelny i kwiatowy.</li>
+                    <li><strong>CYTRYNA LIMONKA</strong> – Świeży i kwaśny aromat cytryny z nutą limonki – idealny na gorące dni.</li>
+                    <li><strong>LÓD TRUSKAWKOWY</strong> – Chłodny smak truskawki z lodami – słodki i orzeźwiający jednocześnie.</li>
+                    <li><strong>LÓD ARBUZOWY</strong> – Letni aromat soczystego arbuzu z lodową nutą – perfekcyjna opcja na upalne dni.</li>
+                    <li><strong>KIWI MARAKUJA GUAWA</strong> – Egzotyczna mieszanka tropikalnych owoców – kwasowa i owocna jednocześnie.</li>
+                    <li><strong>WIŚNIA GAZOWANA</strong> – Słodko-kwaśna wiśnia z musującym, gazowanym charakterem – unikalny i zapierający dech w piersiach smak.</li>
+                    </ol>
+                    <hr>
+                    <h3><strong>Innowacyjna technologia i jakość materiałów</strong></h3>
+                    <p>XCOR 12000 PUFFS został stworzony z myślą o najwyższej jakości produkcji i bezpieczeństwa użytkownika. Urządzenie zostało wykonane z odpornych na uszkodzenia materiałów, a wnętrze zostało starannie przetestowane, by zagwarantować ciągłą i stabilną emisję pary. Cewka ceramiczna oraz odpowiednio dobrany płyn nikotynowy pozwalają na uzyskanie bogatego, czystego i intensywnego smaku przy każdym pociągnięciu.</p>
+                    <p>Dodatkowo, każdy model został wyposażony w inteligentny system kontroli temperatury, który minimalizuje ryzyko przegrzania i spalenia płynu, co wpływa bezpośrednio na jakość pary oraz komfort użytkowania.</p>
+                    <hr>
+                    <h3><strong>Bezpieczeństwo i legalność</strong></h3>
+                    <p>XCOR 12000 PUFFS spełnia wszystkie normy bezpieczeństwa obowiązujące na całym świecie, w tym standardy Unii Europejskiej. Produkt został poddany wielu testom jakości, a jego skład jest kontrolowany i przebadany pod kątem szkodliwych substancji. Jeśli chodzi o produkty parownicze, bezpieczeństwo użytkownika zawsze stoi na pierwszym miejscu.</p>
+                    <hr>
+                    <h3><strong>Idealny wybór dla różnorodnych stylów życia</strong></h3>
+                    <p>XCOR 12000 PUFFS to nie tylko produkt dla osób przechodzących na parowanie z papierosów tradycyjnych, ale również dla tych, którzy cenią sobie nowoczesne technologie i chcą cieszyć się różnorodnymi smakami. Idealny do codziennego użytku, w pracy, na imprezach, w podróży czy podczas relaksu w domu.</p>
+                    <hr>
+                    <h3><strong>Podsumowanie</strong></h3>
+                    <p>XCOR 12000 PUFFS to nie tylko kolejny pre-pod jednorazowy – to nowa era parowania, gdzie jakość spotyka się z różnorodnością smaków, a komfort użytkowania idzie w parze z nowoczesną technologią. Dostępne w <strong>14 niepowtarzalnych smakach</strong>, z <strong>12 000 pociągnięć</strong> i doskonałą równowagą między intensywnością smaku a komfortem grzmiącego w gardle, to urządzenie stworzone dla ludzi ceniących indywidualność i jakość.</p>
+                    <p>Jeśli szukasz idealnego towarzysza do codziennego parowania, XCOR 12000 PUFFS to Twój wybór. Wypróbuj jeden z 14 aromatów i poczuj różnicę!</p>
+                    <hr>
+                    <p><strong>XCOR 12000 PUFFS – Smak, który zostaje.</strong><br>
+                    Dostępne online i w sklepach specjalistycznych. Zapoznaj się z pełną listą smaków i wybierz swój ulubiony już dziś!</p>
+                </div>
+            </div>
+            
+            <!-- RANDM TORNADO 15000 PUFFS -->
+            <div class="row product-details mb-5">
+                <div class="col-md-6 order-md-2">
+                <img decoding="async" loading="lazy"  src="https://www.buchmistrz.pl/wp-content/uploads/6483a4ae-7898-4343-a495-f3dc39c49a5f.png" alt="RANDM TORNADO 15000 PUFFS" class="img-fluid">
+                </div>
+                <div class="col-md-6 order-md-1">
+                <h3>RANDM TORNADO 15000 PUFFS</h3>
+                <p>To jednorazowy e-papieros z serii RANDM o wyjątkowej konstrukcji i niepowtarzalnym smaku. Dzięki 15,000 wdechom możesz cieszyć się przez długi czas bez potrzeby doładowania.</p>
+                <ul>
+                    <li><strong>Pojemność:</strong> 15,000 puffs</li>
+                    <li><strong>Liczba smaków:</strong> 25</li>
+                    <li><strong>Pojemność baterii:</strong> 1300 mAh</li>
+                    <li><strong>Stężenie nikotyny:</strong> 50 mg</li>
+                </ul>
+                <a href="#products" class="btn btn-primary">Zobacz szczegóły</a>
+                </div>
+                <div class="col-md-12" id="product-details">
+                    <p><strong><a href="https://www.buchmistrz.pl/tag/10" rel="tag">RANDM</a> TORNADO 15000 PUFFS – 15 000 pociągnięć, 24 niezwykłe smaki i innowacyjna technologia w jednym urządzeniu</strong></p>
+                    <p>W dynamicznie rozwijającym się świecie produktów parowniczych, klienci poszukują nie tylko wygody, ale także wyjątkowego doświadczenia smakowego i trwałości.&nbsp;<strong>RANDM TORNADO 15000 PUFFS</strong>&nbsp;to jednorazowy pre-pod, który łączy w sobie wysoką pojemność (aż&nbsp;<strong>15 000 pociągnięć</strong>), innowacyjną technologię oraz niesamowitą paletę&nbsp;<strong>24 unikalnych smaków</strong>. Produkt idealnie nadaje się zarówno dla początkujących użytkowników, jak i zaawansowanych fanów parowania, oferując doskonałą równowagę między komfortem użytkowania, jakością pary a intensywnością aromatów.</p>
+                    <img decoding="async" loading="lazy"  src="https://www.buchmistrz.pl/wp-content/uploads/20240111171607504bc.webp" alt="RANDM TORNADO 15000 PUFFS">
+                    <hr>
+                    <h3><strong>Dlaczego warto wybrać RANDM TORNADO 15000 PUFFS?</strong></h3>
+                    <p><strong>RANDM TORNADO 15000 PUFFS</strong>&nbsp;to nowa generacja pre-podów, która redefiniuje standardy w branży parowniczej. Dzięki&nbsp;<strong>15 000 pociągnięć</strong>&nbsp;w jednym urządzeniu, użytkownik nie musi martwić się o ładowanie baterii ani wymianę podów – produkt zapewnia miesiąc bezproblemowego użytkowania. Kompaktowa, ergonomiczna konstrukcja pozwala na swobodne przenoszenie go w kieszeni lub torbie, a jego automatyczny system włączania eliminuje konieczność naciskania przycisków.</p>
+                    <p>Urządzenie zostało wyposażone w&nbsp;<strong>cewkę ceramiczną</strong>, która gwarantuje czystą, intensywną parę bez spalania płynu, co znacząco poprawia jakość smaku. Dodatkowo, RANDM TORNADO 15000 PUFFS korzysta z&nbsp;<strong>inteligentnego systemu kontroli temperatury</strong>, który minimalizuje ryzyko przegrzania i zapewnia stabilną emisję pary przy każdej temperaturze otoczenia.</p>
+                    <hr>
+                    <h3><strong>24 wyjątkowe smaki – coś dla każdego gusta!</strong></h3>
+                    <img decoding="async" loading="lazy"  src="https://www.buchmistrz.pl/wp-content/uploads/6ed4c073-2dea-42d6-8676-9567b345adb3.png" alt="RANDM TORNADO 15000 PUFFS">
+                    <p>Jednym z największych atutów RANDM TORNADO 15000 PUFFS jest jego&nbsp;<strong>ogromna różnorodność smaków</strong>. Dostępne w&nbsp;<strong>24 opcjach aromatycznych</strong>, produkt spełni najbardziej wymagające gusta, od słodkich owocowych po egzotyczne mieszanki i nowoczesne kombinacje napojów energetycznych. Oto pełna lista smaków:</p>
+                    <ol>
+                    <li><strong>GRANAT JAGODOWY (BLUEBERRY POMEGRANATE)</strong>&nbsp;– Subtelna mieszanka soczystej borówki i kwiatowego granatu – idealna dla miłośników orzeźwiających owocowych smaków.</li>
+                    <li><strong>MIESZANE JAGODY (MIXED BERRY)</strong>&nbsp;– Klasyczna, intensywna mieszanka czarnego i czerwonego jagod, z nutą cytrusową.</li>
+                    <li><strong>BORÓWKA MALINOWA (BLUEBERRY RASPBERRY)</strong>&nbsp;– Idealna równowaga słodyczy borówki i kwasowości maliny.</li>
+                    <li><strong>ARMEL NA LODZIE (WATERMELON ON ICE)</strong>&nbsp;– Letni aromat soczystego arbuzu z lodową nutą – perfekcyjna opcja na upalne dni.</li>
+                    <li><strong>RÓŻOWA LEMONIADA (PINK LEMONADE)</strong>&nbsp;– Świeży, słodko-kwaśny smak lemoniady z nutą różu – idealny na wakacje.</li>
+                    <li><strong>CYTRYNA LIMONKA (LEMON LIME)</strong>&nbsp;– Klasyczna kombinacja cytryny i limonki – orzeźwiająca i energogenerująca.</li>
+                    <li><strong>BORÓWKA NA LODZIE (BLUEBERRY ON ICE)</strong>&nbsp;– Chłodny smak borówki z intensywnym „uderzeniem” lodowym.</li>
+                    <li><strong>TRUSKAWKA RED BULL (STRAWBERRY RED BULL)</strong>&nbsp;– Unikalna mieszanka soku truskawkowego i energicznego aromatu napoju Red Bull – idealna dla osób aktywnych.</li>
+                    <li><strong>BRZOSKWINIA MANGO (PEACH MANGO)</strong>&nbsp;– Tropikalna kombinacja soczystej brzoskwinii i słodkiego mango.</li>
+                    <li><strong>TRUSKAWKOWY BAAN (STRAWBERRY BANANA)</strong>&nbsp;– Słodki, delikatny smak truskawkowego bananu – idealny na poranek.</li>
+                    <li><strong>WINOGRONA TRUSKAWKOWE (STRAWBERRY GRAPE)</strong>&nbsp;– Subtelna mieszanka winogrona i truskawki z nutą cytrusową.</li>
+                    <li><strong>NIEBIESKA WIŚNIA RAZZ (BLUE RAZZ CHERRY)</strong>&nbsp;– Kwasowa i słodka wiśnia z nutą arakoidu – idealna dla fanów intensywnych smaków.</li>
+                    <li><strong>BRZOSKWINIA LÓD (PEACH ICE)</strong>&nbsp;– Soczysta brzoskwinia z chłodzącym efektem lodowym.</li>
+                    <li><strong>WIŚNIA GAZOWANA (FIZZY CHERRY)</strong>&nbsp;– Słodko-kwaśna wiśnia z musującym, gazowanym charakterem – unikalny i zapierający dech w piersiach smak.</li>
+                    <li><strong>WIŚNIOWA COLA (CHERRY COLA)</strong>&nbsp;– Klasyczna kombinacja wiśni i kolk – idealna dla fanów klasycznych napojów.</li>
+                    <li><strong>CZERWONY LÓD ENERGETYCZNY (RED ENERGY ICE)</strong>&nbsp;– Energiczny, czerwony lod z nutą cytrusową i energicznym uderzeniem.</li>
+                    <li><strong>LEMONIADA JAGODOWA (BERRYLEMONADE)</strong>&nbsp;– Świeża lemoniada z aromatem wielu rodzajów jagod.</li>
+                    <li><strong>KRĘGLE (SKITTLES)</strong>&nbsp;– Smak kolorowych cukierków Skittles – pełne barw i energii.</li>
+                    <li><strong>BORÓWKA AMERYKAŃSKA WIŚNIA ŻURAWINA (BLUEBERRY CHERRY CRANBERRY)</strong>&nbsp;– Mieszanka kwaskowych owoców leśnych z intensywnym smakiem wiśni i żurawiny.</li>
+                    <li><strong>LODOWY POP (ICE POP)</strong>&nbsp;– Chłodny smak lodowego popa z nutą cytrynową.</li>
+                    <li><strong>BLUESOUR MALINA (BLUESOUR RASPBERRY)</strong>&nbsp;– Kwasowa malina z nutą cytrynową i lodowym „uderzeniem”.</li>
+                    <li><strong>POTRÓJNA JAGODA (TRIPLE BERRY)</strong>&nbsp;– Mieszanka trzech rodzajów jagod (czarnych, czerwonych i białych) – bogata i intensywna.</li>
+                    <li><strong>BŁAJNY LÓD (LUSH ICE)</strong>&nbsp;– Intensywny, chłodzący lod z nutą owocową.</li>
+                    <li><strong>HERBATA MROŻONA LÓD CYTRYNOWY (ICE TEA LEMON ICE)</strong>&nbsp;– Świeża herbata mrożona z cytrynową nutą – idealna na gorące dni.</li>
+                    </ol>
+                    <hr>
+                    <h3><strong>Technologia na najwyższym poziomie</strong></h3>
+                    <p>RANDM TORNADO 15000 PUFFS został zaprojektowany z myślą o maksymalnej wydajności i komforcie użytkowania. Wyróżnia się:</p>
+                    <ul>
+                    <li><strong>Ceramiczna cewka</strong>&nbsp;– Zapewnia czystą, intensywną parę bez spalania płynu, co wpływa na dłuższą trwałość smaku.</li>
+                    <li><strong>Inteligentny system kontroli temperatury</strong>&nbsp;– Minimalizuje ryzyko przegrzania i zapobiega spaleniu płynu, co poprawia jakość pary.</li>
+                    <li><strong>Stabilna dawka soli nikotyny</strong>&nbsp;(jeśli produkt taki zawiera) – Szybkie spełnienie potrzeb bez nieprzyjemnego uczucia „uderzenia” w gardło.</li>
+                    <li><strong>Bezpieczeństwo i jakość materiałów</strong>&nbsp;– Urządzenie zostało wykonane z odpornych na uszkodzenia materiałów i spełnia wszystkie normy bezpieczeństwa Unii Europejskiej.</li>
+                    </ul>
+                    <hr>
+                    <h3><strong>Idealny wybór dla różnych stylów życia</strong></h3>
+                    <p>RANDM TORNADO 15000 PUFFS to nie tylko produkt do parowania – to narzędzie idealne do codziennego użytku w różnych sytuacjach:</p>
+                    <ul>
+                    <li><strong>W pracy</strong>&nbsp;– Dyskretny, kompaktowy design pozwala na korzystanie z urządzenia w biurze bez zakłócania innych.</li>
+                    <li><strong>Na imprezach</strong>&nbsp;– Bogata paleta smaków sprawia, że każdy znajdzie swój ulubiony aromat.</li>
+                    <li><strong>W podróży</strong>&nbsp;– 15 000 pociągnięć gwarantuje, że nie trzeba pamiętać o ładowaniu baterii.</li>
+                    <li><strong>Podczas relaksu w domu</strong>&nbsp;– Komfort użytkowania i intensywność smaku sprawiają, że parowanie staje się prawdziwym zmartwieniem.</li>
+                    </ul>
+                    <hr>
+                    <h3><strong>Bezpieczeństwo i legalność</strong></h3>
+                    <p>RANDM TORNADO 15000 PUFFS spełnia wszystkie normy bezpieczeństwa obowiązujące na całym świecie, w tym standardy Unii Europejskiej. Produkt został poddany wielu testom jakości, a jego skład jest kontrolowany i przebadany pod kątem szkodliwych substancji. Jeśli chodzi o produkty parownicze, bezpieczeństwo użytkownika zawsze stoi na pierwszym miejscu.</p>
+                    <hr>
+                    <h3><strong>Podsumowanie</strong></h3>
+                    <p><strong>RANDM TORNADO 15000 PUFFS</strong>&nbsp;to rewelacyjny pre-pod, który łączy w sobie&nbsp;<strong>15 000 pociągnięć</strong>,&nbsp;<strong>24 niepowtarzalne smaki</strong>&nbsp;i nowoczesną technologię. Idealny dla osób przechodzących na parowanie z tradycyjnych papierosów, a także dla tych, którzy cenią sobie innowacyjne rozwiązania i różnorodność smaków. Dzięki ceramicznej cewce, inteligentnemu systemowi kontroli temperatury oraz stabilnej dawce soli nikotyny (jeśli dotyczy), produkt gwarantuje komfort użytkowania i intensywność smaku przy każdym pociągnięciu.</p>
+                    <p>Wypróbuj jeden z&nbsp;<strong>24 aromatów</strong>&nbsp;i poczuj różnicę, którą RANDM TORNADO 15000 PUFFS może zapewnić. Dostępne online i w sklepach specjalistycznych – wybierz swój ulubiony smak już dziś!</p>
+                    <p><strong>RANDM TORNADO 15000 PUFFS – Smak, który zostaje.</strong></p>
+                </div>
+            </div>
+            
+            <!-- Crystal Blind 25000 PUFFS -->
+            <div class="row product-details mb-5">
+                <div class="col-md-6">
+                <img decoding="async" loading="lazy"  src="https://www.buchmistrz.pl/wp-content/uploads/3983bf52-f027-4e26-93fb-12a54eea9e7f.png" alt="Crystal Blind 25000 PUFFS" class="img-fluid">
+                </div>
+                <div class="col-md-6">
+                <h3>Crystal Blind 25000 PUFFS</h3>
+                <p>E-papieros Crystal Blind to nowość na rynku, która zapewnia aż 25,000 wdechów. Wzbogaciliśmy go o lodowe smaki idealne na gorące dni.</p>
+                <ul>
+                    <li><strong>Pojemność:</strong> 25,000 puffs</li>
+                    <li><strong>Liczba smaków:</strong> 10</li>
+                    <li><strong>Pojemność baterii:</strong> 1400 mAh</li>
+                    <li><strong>Stężenie nikotyny:</strong> 50 mg</li>
+                </ul>
+                <a href="#products" class="btn btn-primary">Zobacz szczegóły</a>
+                </div>
+                <div class="col-md-12" id="product-details">
+                    <p><strong><a href="https://www.buchmistrz.pl/tag/9" rel="tag">Crystal</a> Blind 25000 PUFFS – 25 000 pociągnięć, 10 unikalnych dwusmakowych kombinacji i innowacyjna technologia w jednym urządzeniu</strong></p>
+                    <p>W dynamicznie rozwijającym się świecie produktów parowniczych, klienci poszukują nie tylko wygody, ale także wyjątkowego doświadczenia smakowego i trwałości.&nbsp;<strong>Crystal Blind 25000 PUFFS</strong>&nbsp;to jednorazowy pre-pod z&nbsp;<strong>dwusmakowymi kombinacjami</strong>, który oferuje aż&nbsp;<strong>25 000 pociągnięć</strong>&nbsp;w jednym urządzeniu. Produkt idealnie nadaje się zarówno dla początkujących użytkowników, jak i zaawansowanych fanów parowania, oferując doskonałą równowagę między komfortem użytkowania, jakością pary a intensywnością smaku.</p>
+                    <hr>
+                    <h3><strong>Dlaczego warto wybrać Crystal Blind 25000 PUFFS?</strong></h3>
+                    <p><strong>Crystal Blind 25000 PUFFS</strong>&nbsp;to nowa generacja pre-podów, która łączy w sobie&nbsp;<strong>wysoką pojemność</strong>,&nbsp;<strong>innowacyjną technologię</strong>&nbsp;oraz&nbsp;<strong>unikalne dwusmakowe kombinacje</strong>. Dzięki&nbsp;<strong>25 000 pociągnięć</strong>&nbsp;w jednym urządzeniu, użytkownik nie musi martwić się o ładowanie baterii ani wymianę podów – produkt zapewnia miesiące bezproblemowego użytkowania. Kompaktowa, ergonomiczna konstrukcja pozwala na swobodne przenoszenie go w kieszeni lub torbie, a jego automatyczny system włączania eliminuje konieczność naciskania przycisków.</p>
+                    <p>Urządzenie zostało wyposażone w&nbsp;<strong>cewkę ceramiczną</strong>, która gwarantuje czystą, intensywną parę bez spalania płynu, co znacząco poprawia jakość smaku. Dodatkowo, Crystal Blind 25000 PUFFS korzysta z&nbsp;<strong>inteligentnego systemu kontroli temperatury</strong>, który minimalizuje ryzyko przegrzania i zapewnia stabilną emisję pary przy każdej temperaturze otoczenia.</p>
+                    <hr>
+                    <h3><strong>10 niepowtarzalnych dwusmakowych kombinacji – coś dla każdego gusta!</strong></h3>
+                    <img decoding="async" loading="lazy"  src="https://www.buchmistrz.pl/wp-content/uploads/9fa137a9-1426-464b-a4b1-134ad5a9be75.png" alt="Crystal Blind 25000 puffs dwusmakowe">
+                    <p>Jednym z największych atutów Crystal Blind 25000 PUFFS jest jego&nbsp;<strong>różnorodność smaków</strong>. Dostępne w&nbsp;<strong>10 opcjach dwusmakowych</strong>, produkt spełni najbardziej wymagające gusta, od chłodzących cytrusowych po egzotyczne tropikalne mieszanki. Oto pełna lista smaków:</p>
+                    <ol>
+                    <li><strong>Lód jagodowy / Mięta jagodowa (Berry ice / Berry mint)</strong><br>
+                    Idealna kombinacja chłodzącego lodu jagodowego i orzeźwiającej mięty jagodowej – idealna dla miłośników delikatnych, naturalnych aromatów.</li>
+                    <li><strong>Mięta cytrynowa / Mięta winogronowa (Lemon mint / Grape mint)</strong><br>
+                    Świeża mięta cytrynowa z nutą owocową i mięta winogronowa z intensywnym smakiem – doskonała para dla fanów cytrusowo-miętowych kombinacji.</li>
+                    <li><strong>Lemoniada Bluerazz / Guma jagodowa (Bluerazz lemonade / Blueberry gum)</strong><br>
+                    Słodko-kwaśna lemoniada Bluerazz i słodka guma jagodowa – idealna dla osób, które cenią słodkie, owocowe smaki.</li>
+                    <li><strong>Lód z mango / Słodka marakuja (Mango ice / Sweet passion fruit)</strong><br>
+                    Soczysty lód z mango i intensywna słodka marakuja – perfekcyjna opcja na upalne dni.</li>
+                    <li><strong>Porzeczka lod / Wiśniowa fiesta (Black currant ice / Cherry fiesta)</strong><br>
+                    Chłodna porzeczka z nutą cytrynową i intensywna wiśnia z nutą soku – idealna para dla fanów owocowo-lodowych kombinacji.</li>
+                    <li><strong>Soczysty lodowo-truskawkowy poncz (Lush ice / Strawberry punch)</strong><br>
+                    Orzeźwiająca herbata lodowa i intensywny poncz truskawkowy – idealna para na poranek.</li>
+                    <li><strong>Guma miętowa / Hubba (Gum mint / Hubba)</strong><br>
+                    Kultowy smak gumy miętowej i słodko-owocowa hubba – doskonała kombinacja dla nostalgików.</li>
+                    <li><strong>Cytryna z limonką / Świadomy sen (Lemon lime / Lucid dream)</strong><br>
+                    Klasyczna cytrusowa kombinacja cytryny i limonki oraz nowoczesny aromat „świadomego snu” – idealna para dla osób szukających różnorodności.</li>
+                    <li><strong>Mango ananas / Niebieska mgiełka (Mango pineapple / Blue mist)</strong><br>
+                    Tropikalna mieszanka mango i ananasu oraz chłodząca niebieska mgiełka – idealna opcja dla fanów egzotycznych smaków.</li>
+                    <li><strong>Magiczna miłość / Dwa jabłka (Magic love / Two apple)</strong><br>
+                    Słodki, delikatny aromat magicznej miłości i subtelna kombinacja jabłek – idealna para dla osób ceniących naturalne i przyjemne smaki.</li>
+                    </ol>
+                    <hr>
+                    <h3><strong>Technologia na najwyższym poziomie</strong></h3>
+                    <p>Crystal Blind 25000 PUFFS został zaprojektowany z myślą o maksymalnej wydajności i komforcie użytkowania. Wyróżnia się:</p>
+                    <ul>
+                    <li><strong>Ceramiczna cewka</strong>&nbsp;– Zapewnia czystą, intensywną parę bez spalania płynu, co wpływa na dłuższą trwałość smaku.</li>
+                    <li><strong>Inteligentny system kontroli temperatury</strong>&nbsp;– Minimalizuje ryzyko przegrzania i zapobiega spaleniu płynu, co poprawia jakość pary.</li>
+                    <li><strong>Stabilna dawka soli nikotyny</strong>&nbsp;(jeśli produkt taki zawiera) – Szybkie spełnienie potrzeb bez nieprzyjemnego uczucia „uderzenia” w gardło.</li>
+                    <li><strong>Bezpieczeństwo i jakość materiałów</strong>&nbsp;– Urządzenie zostało wykonane z odpornych na uszkodzenia materiałów i spełnia wszystkie normy bezpieczeństwa Unii Europejskiej.</li>
+                    </ul>
+                    <hr>
+                    <h3><strong>Idealny wybór dla różnych stylów życia</strong></h3>
+                    <p>Crystal Blind 25000 PUFFS to nie tylko produkt do parowania – to narzędzie idealne do codziennego użytku w różnych sytuacjach:</p>
+                    <ul>
+                    <li><strong>W pracy</strong>&nbsp;– Dyskretny, kompaktowy design pozwala na korzystanie z urządzenia w biurze bez zakłócania innych.</li>
+                    <li><strong>Na imprezach</strong>&nbsp;– Bogata paleta smaków sprawia, że każdy znajdzie swoją ulubioną kombinację.</li>
+                    <li><strong>W podróży</strong>&nbsp;– 25 000 pociągnięć gwarantuje, że nie trzeba pamiętać o ładowaniu baterii.</li>
+                    <li><strong>Podczas relaksu w domu</strong>&nbsp;– Komfort użytkowania i intensywność smaku sprawiają, że parowanie staje się prawdziwym zmartwieniem.</li>
+                    </ul>
+                    <hr>
+                    <h3><strong>Bezpieczeństwo i legalność</strong></h3>
+                    <p>Crystal Blind 25000 PUFFS spełnia wszystkie normy bezpieczeństwa obowiązujące na całym świecie, w tym standardy Unii Europejskiej. Produkt został poddany wielu testom jakości, a jego skład jest kontrolowany i przebadany pod kątem szkodliwych substancji. Jeśli chodzi o produkty parownicze, bezpieczeństwo użytkownika zawsze stoi na pierwszym miejscu.</p>
+                    <hr>
+                    <h3><strong>Podsumowanie</strong></h3>
+                    <p><strong>Crystal Blind 25000 PUFFS</strong>&nbsp;to rewelacyjny pre-pod, który łączy w sobie&nbsp;<strong>25 000 pociągnięć</strong>,&nbsp;<strong>10 niepowtarzalnych dwusmakowych kombinacji</strong>&nbsp;i nowoczesną technologię. Idealny dla osób przechodzących na parowanie z tradycyjnych papierosów, a także dla tych, którzy cenią sobie innowacyjne rozwiązania i różnorodność smaków. Dzięki ceramicznej cewce, inteligentnemu systemowi kontroli temperatury oraz stabilnej dawce soli nikotyny (jeśli dotyczy), produkt gwarantuje komfort użytkowania i intensywność smaku przy każdym pociągnięciu.</p>
+                    <p>Wypróbuj jedną z&nbsp;<strong>10 kombinacji smaków</strong>&nbsp;i poczuj różnicę, którą Crystal Blind 25000 PUFFS może zapewnić. Dostępne online i w sklepach specjalistycznych – wybierz swoje ulubione dwusmakowe połączenie już dziś!</p>
+                    <p><strong>Crystal Blind 25000 PUFFS – Smak, który zostaje.</strong></p>
+                </div>
+            </div>
+            
+            <!-- FUMOT TORNADO 20000 PUFFS -->
+            <div class="row product-details mb-5">
+                <div class="col-md-6 order-md-2">
+                <img decoding="async" loading="lazy"  src="https://www.buchmistrz.pl/wp-content/uploads/fumot-digital-box-20000.png" alt="FUMOT TORNADO 20000 PUFFS" class="img-fluid">
+                </div>
+                <div class="col-md-6 order-md-1">
+                <h3>FUMOT TORNADO 20000 PUFFS</h3>
+                <p>Tornado od FUMOT to jednorazowy e-papieros o doskonałej wydajności i bogatej gamie smaków. Zaprojektowany do maksymalnej liczby wdechów – aż 20,000!</p>
+                <ul>
+                    <li><strong>Pojemność:</strong> 20,000 puffs</li>
+                    <li><strong>Liczba smaków:</strong> 10</li>
+                    <li><strong>Pojemność baterii:</strong> 1350 mAh</li>
+                    <li><strong>Stężenie nikotyny:</strong> 50 mg</li>
+                </ul>
+                <a href="#products" class="btn btn-primary">Zobacz szczegóły</a>
+                </div>
+                <div class="col-md-12" id="product-details">
+                    <p><strong><a href="https://www.buchmistrz.pl/tag/6" rel="tag">FUMOT</a> 20000 PUFFS – 20 000 pociągnięć, 39 unikalnych smaków i innowacyjna technologia w jednym urządzeniu</strong></p>
+                    <p>W dynamicznie rozwijającym się świecie produktów parowniczych, klienci poszukują nie tylko wygody, ale także wyjątkowego doświadczenia smakowego i trwałości.&nbsp;<strong>FUMOT 20000 PUFFS</strong>&nbsp;to nowoczesny pre-pod z&nbsp;<strong>20 000 pociągnięć</strong>, który łączy w sobie wysoką pojemność, innowacyjną technologię oraz niesamowitą paletę&nbsp;<strong>39 unikalnych smaków</strong>. Produkt idealnie nadaje się zarówno dla początkujących użytkowników, jak i zaawansowanych fanów parowania, oferując doskonałą równowagę między komfortem użytkowania, jakością pary a intensywnością aromatów.</p>
+                    <hr>
+                    <h3><strong>Dlaczego warto wybrać FUMOT 20000 PUFFS?</strong></h3>
+                    <p><strong>FUMOT 20000 PUFFS</strong>&nbsp;to nowa generacja pre-podów, która redefiniuje standardy w branży parowniczej. Dzięki&nbsp;<strong>20 000 pociągnięć</strong>&nbsp;w jednym urządzeniu, użytkownik nie musi martwić się o ładowanie baterii ani wymianę podów – produkt zapewnia miesiąc bezproblemowego użytkowania. Kompaktowa, ergonomiczna konstrukcja pozwala na swobodne przenoszenie go w kieszeni lub torbie, a jego automatyczny system włączania eliminuje konieczność naciskania przycisków.</p>
+                    <p>Urządzenie zostało wyposażone w&nbsp;<strong>cewkę ceramiczną</strong>, która gwarantuje czystą, intensywną parę bez spalania płynu, co znacząco poprawia jakość smaku. Dodatkowo, FUMOT 20000 PUFFS korzysta z&nbsp;<strong>inteligentnego systemu kontroli temperatury</strong>, który minimalizuje ryzyko przegrzania i zapewnia stabilną emisję pary przy każdej temperaturze otoczenia.</p>
+                    <hr>
+                    <h3><strong>39 wyjątkowych smaków – coś dla każdego gusta!</strong></h3>
+                    <img decoding="async" loading="lazy"  src="https://www.buchmistrz.pl/wp-content/uploads/fa0d884c-e9ae-4224-94d3-cdea17c92f33.png" alt="FUMOT 20000 PUFFS">
+                    <p>Jednym z największych atutów FUMOT 20000 PUFFS jest jego&nbsp;<strong>ogromna różnorodność smaków</strong>. Dostępne w&nbsp;<strong>39 opcjach aromatycznych</strong>, produkt spełni najbardziej wymagające gusta, od słodkich owocowych po egzotyczne mieszanki i nowoczesne kombinacje napojów energetycznych. Oto pełna lista smaków:</p>
+                    <ol>
+                    <li><strong>Borówka Rasa Malinowa Landrynki (Blueberry Raspberry Hard Candy)</strong>&nbsp;– Słodki, intensywny smak landrynki z nutą borówki i maliny.</li>
+                    <li><strong>Niebieska Razz (Blue Razz)</strong>&nbsp;– Kwasowa i słodka kombinacja arakoidu z cytrynową nutą.</li>
+                    <li><strong>Truskawka Kiwi (Strawberry Kiwi)</strong>&nbsp;– Świeży aromat kiwi z intensywnym smakiem truskawki.</li>
+                    <li><strong>Brzoskwinia Ananas Pomarańcza (Peach Pineapple Orange)</strong>&nbsp;– Tropikalna mieszanka owoców z nutą cytrusową.</li>
+                    <li><strong>Kręgle (Skittles)</strong>&nbsp;– Smak kolorowych cukierków Skittles – pełne barw i energii.</li>
+                    <li><strong>Brzoskwinia Mango Arbuz (Peach Mango Watermelon)</strong>&nbsp;– Soczysta brzoskwinia, słodki mango i chłodny arbuz.</li>
+                    <li><strong>Lody truskawkowe (Strawberry Ice Cream)</strong>&nbsp;– Delikatny smak lodów z dodatkiem soku truskawkowego.</li>
+                    <li><strong>Gruszka lce (Pear lce)</strong>&nbsp;– Subtelny, słodki smak gruszek z nutą cytrynową.</li>
+                    <li><strong>Wata cukrowa (Cotton Candy)</strong>&nbsp;– Nostalgiczna słodycz w formie pary – idealna dla dzieci i dorosłych.</li>
+                    <li><strong>Żelki (Jelly Beans)</strong>&nbsp;– Klasyczne miękkie cukierki z intensywnym smakiem owocowym.</li>
+                    <li><strong>Lemoniada z ogórków (Cucumber Lemonade)</strong>&nbsp;– Orzeźwiająca lemoniada z aromatem ogórków.</li>
+                    <li><strong>Pina Colada (Pina Colada)</strong>&nbsp;– Egzotyczna mieszanka ananasu, kokosu i cytrynowej nuty.</li>
+                    <li><strong>Huckleberry (Huckleberry)</strong>&nbsp;– Miodowy smak huckleberry z nutą cytrynową.</li>
+                    <li><strong>Lód arbuzowy (Watermelon Ice)</strong>&nbsp;– Chłodny smak soczystego arbuzu – idealny na upalne dni.</li>
+                    <li><strong>Truskawkowy arbuz (Strawberry Watermelon)</strong>&nbsp;– Świeży arbuz z intensywnym smakiem truskawki.</li>
+                    <li><strong>Mieszane jagody (Mixed Berry)</strong>&nbsp;– Klasyczna kombinacja czarnego i czerwonego jagod.</li>
+                    <li><strong>Liczi Hami Melon (Lychee Hami Melon)</strong>&nbsp;– Delikatna mieszanka liczy i słodkiego hamimelonu.</li>
+                    <li><strong>Wiśnia Limonka (Cherry Lime)</strong>&nbsp;– Słodko-kwaśna wiśnia z cytrynową nutą.</li>
+                    <li><strong>Ananas Cytryna Zielone Jabłko (Pineapple Lemon Green Apple)</strong>&nbsp;– Tropikalna kombinacja z cytrusową i owocową nutą.</li>
+                    <li><strong>Ciasto bananowe (Banana Cake)</strong>&nbsp;– Słodki smak ciasta bananowego z nutą cytrynową.</li>
+                    <li><strong>Pan Niebieski (Mr Blue)</strong>&nbsp;– Chłodzący niebieski aromat z nutą cytrynową.</li>
+                    <li><strong>Wiśnia (Cherry)</strong>&nbsp;– Klasyczna, intensywna wiśnia z delikatnym „uderzeniem”.</li>
+                    <li><strong>Borówka amerykańska Malina (Blueberry Raspberry)</strong>&nbsp;– Idealna równowaga słodyczy borówki i kwasowości maliny.</li>
+                    <li><strong>Wiśniowa Cola (Cherry Cola)</strong>&nbsp;– Klasyczna kombinacja wiśni i kolk – idealna dla fanów klasycznych napojów.</li>
+                    <li><strong>Kiwi Marakuja Guawa (Kiwi Passion Fruit Guava)</strong>&nbsp;– Egzotyczna mieszanka tropikalnych owoców – kwasowa i owocna jednocześnie.</li>
+                    <li><strong>Lód truskawkowy (Strawberry Ice)</strong>&nbsp;– Chłodny smak truskawki z intensywnym „uderzeniem” lodowym.</li>
+                    <li><strong>Truskawka Malina Wiśnia Lód (Strawberry Raspberry Cherry Ice)</strong>&nbsp;– Trio owoców z lodową nutą – idealna para dla fanów owocowo-lodowych kombinacji.</li>
+                    <li><strong>Jagoda wiśni (Cherry Berry)</strong>&nbsp;– Soczysta wiśnia z nutą jagod.</li>
+                    <li><strong>Borówka amerykańska Kwaśna Malina (Blueberry Sour Raspberry)</strong>&nbsp;– Kwaśna malina z nutą borówki – idealna dla fanów intensywnych smaków.</li>
+                    <li><strong>Jagoda brzoskwiniowa (Peach Berry)</strong>&nbsp;– Soczysta brzoskwinia z intensywnym smakiem jagod.</li>
+                    <li><strong>Niebieski Razz Gummy Bear (Blue Razz Gummy Bear)</strong>&nbsp;– Kultowy smak miękkich cukierków w formie pary – słodki i zabawny.</li>
+                    <li><strong>Chłodna mięta (Cool Mint)</strong>&nbsp;– Orzeźwiająca mięta z nutą cytrynową – idealna na gorące dni.</li>
+                    <li><strong>Jagoda na lodzie (Blueberry On Ice)</strong>&nbsp;– Chłodny smak borówki z intensywnym „uderzeniem” lodowym.</li>
+                    <li><strong>Kaktus lce (Cactus lce)</strong>&nbsp;– Subtelny, chłodzący smak kaktusowy z nutą cytrynową.</li>
+                    <li><strong>Czerwone winogrono Limonka (Red Grape Lime)</strong>&nbsp;– Słodki winogrono z cytrynową nutą – idealna para dla fanów owocowych smaków.</li>
+                    <li><strong>Cola Cytryna (Cola Lemon)</strong>&nbsp;– Klasyczna cola z nutą cytrynową – idealna dla osób szukających klasycznych smaków.</li>
+                    <li><strong>Porzeczka Jabłko (Blackcurrant Apple)</strong>&nbsp;– Soczyste jabłko z intensywnym smakiem porzeczki.</li>
+                    <li><strong>Kaktus Kiwi (Cactus Kiwi)</strong>&nbsp;– Egzotyczna kombinacja kaktusowego smaku i cytrynowego kiwi.</li>
+                    <li><strong>Cola lce (Cola lce)</strong>&nbsp;– Chłodna cola z intensywnym „uderzeniem” lodowym – idealna na upalne dni.</li>
+                    </ol>
+                    <hr>
+                    <h3><strong>Technologia na najwyższym poziomie</strong></h3>
+                    <p>FUMOT 20000 PUFFS został zaprojektowany z myślą o maksymalnej wydajności i komforcie użytkowania. Wyróżnia się:</p>
+                    <ul>
+                    <li><strong>Ceramiczna cewka</strong>&nbsp;– Zapewnia czystą, intensywną parę bez spalania płynu, co wpływa na dłuższą trwałość smaku.</li>
+                    <li><strong>Inteligentny system kontroli temperatury</strong>&nbsp;– Minimalizuje ryzyko przegrzania i zapobiega spaleniu płynu, co poprawia jakość pary.</li>
+                    <li><strong>Stabilna dawka soli nikotyny</strong>&nbsp;(jeśli produkt taki zawiera) – Szybkie spełnienie potrzeb bez nieprzyjemnego uczucia „uderzenia” w gardło.</li>
+                    <li><strong>Bezpieczeństwo i jakość materiałów</strong>&nbsp;– Urządzenie zostało wykonane z odpornych na uszkodzenia materiałów i spełnia wszystkie normy bezpieczeństwa Unii Europejskiej.</li>
+                    </ul>
+                    <hr>
+                    <h3><strong>Idealny wybór dla różnych stylów życia</strong></h3>
+                    <p>FUMOT 20000 PUFFS to nie tylko produkt do parowania – to narzędzie idealne do codziennego użytku w różnych sytuacjach:</p>
+                    <ul>
+                    <li><strong>W pracy</strong>&nbsp;– Dyskretny, kompaktowy design pozwala na korzystanie z urządzenia w biurze bez zakłócania innych.</li>
+                    <li><strong>Na imprezach</strong>&nbsp;– Bogata paleta smaków sprawia, że każdy znajdzie swój ulubiony aromat.</li>
+                    <li><strong>W podróży</strong>&nbsp;– 20 000 pociągnięć gwarantuje, że nie trzeba pamiętać o ładowaniu baterii.</li>
+                    <li><strong>Podczas relaksu w domu</strong>&nbsp;– Komfort użytkowania i intensywność smaku sprawiają, że parowanie staje się prawdziwym zmartwieniem.</li>
+                    </ul>
+                    <hr>
+                    <h3><strong>Bezpieczeństwo i legalność</strong></h3>
+                    <p>FUMOT 20000 PUFFS spełnia wszystkie normy bezpieczeństwa obowiązujące na całym świecie, w tym standardy Unii Europejskiej. Produkt został poddany wielu testom jakości, a jego skład jest kontrolowany i przebadany pod kątem szkodliwych substancji. Jeśli chodzi o produkty parownicze, bezpieczeństwo użytkownika zawsze stoi na pierwszym miejscu.</p>
+                    <hr>
+                    <h3><strong>Podsumowanie</strong></h3>
+                    <p><strong>FUMOT 20000 PUFFS</strong>&nbsp;to rewelacyjny pre-pod, który łączy w sobie&nbsp;<strong>20 000 pociągnięć</strong>,&nbsp;<strong>39 niepowtarzalnych smaków</strong>&nbsp;i nowoczesną technologię. Idealny dla osób przechodzących na parowanie z tradycyjnych papierosów, a także dla tych, którzy cenią sobie innowacyjne rozwiązania i różnorodność smaków. Dzięki ceramicznej cewce, inteligentnemu systemowi kontroli temperatury oraz stabilnej dawce soli nikotyny (jeśli dotyczy), produkt gwarantuje komfort użytkowania i intensywność smaku przy każdym pociągnięciu.</p>
+                    <p>Wypróbuj jeden z&nbsp;<strong>39 aromatów</strong>&nbsp;i poczuj różnicę, którą FUMOT 20000 PUFFS może zapewnić. Dostępne online i w sklepach specjalistycznych – wybierz swój ulubiony smak już dziś!</p>
+                    <p><strong>FUMOT 20000 PUFFS – Smak, który zostaje.</strong></p>  
+                </div>
+            </div>
+            
+            <!-- XCOR DUBAI NIGHT 28000 PUFFS -->
+            <div class="row product-details mb-5">
+                <div class="col-md-6">
+                <img decoding="async" loading="lazy"  src="https://www.buchmistrz.pl/wp-content/uploads/DS17%E9%BB%91%E8%89%B2-1.png" alt="XCOR DUBAI NIGHT 28000 PUFFS" class="img-fluid">
+                </div>
+                <div class="col-md-6">
+                <h3>XCOR DUBAI NIGHT 28000 PUFFS</h3>
+                <p>Dubai Night to najnowsza seria XCOR, zaprojektowana z myślą o wymagających użytkownikach. Oferuje nawet 28,000 wdechów i unikalne mieszanki smakowe inspirowane kultową nocną atmosferą Dubaju.</p>
+                <ul>
+                    <li><strong>Pojemność:</strong> 28,000 puffs</li>
+                    <li><strong>Liczba smaków:</strong> 10</li>
+                    <li><strong>Pojemność baterii:</strong> 1500 mAh</li>
+                    <li><strong>Stężenie nikotyny:</strong> 50 mg</li>
+                </ul>
+                <a href="#products" class="btn btn-primary">Zobacz szczegóły</a>
+                </div>
+                <div class="col-md-12" id="product-details">
+                    <div class="elementor elementor-1840" data-elementor-type="wp-post" data-elementor-id="1840" data-elementor-post-type="ocean_portfolio">
+                    <div class="elementor-element elementor-element-e5d695c e-con-full e-flex e-con e-parent" data-id="e5d695c" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;full&quot;}" data-core-v316-plus="true">
+                    <div class="elementor-element elementor-element-f0385a6 elementor-widget__width-inherit elementor-widget elementor-widget-image" data-id="f0385a6" data-element_type="widget" data-widget_type="image.default">
+                    <div class="elementor-widget-container">
+                    <style>.elementor-widget-image{text-align:center}.elementor-widget-image a{display:inline-block}.elementor-widget-image a img[src$=".svg"]{width:48px}.elementor-widget-image img{vertical-align:middle;display:inline-block}</style>
+                    <img decoding="async" loading="lazy"  src="https://xcorvape.com/wp-content/uploads/2024/07/画板-1.png" sizes="(max-width: 1920px) 100vw, 1920px" srcset="https://xcorvape.com/wp-content/uploads/2024/07/画板-1.png 1920w, https://xcorvape.com/wp-content/uploads/2024/07/画板-1-300x185.png 300w, https://xcorvape.com/wp-content/uploads/2024/07/画板-1-1024x632.png 1024w, https://xcorvape.com/wp-content/uploads/2024/07/画板-1-768x474.png 768w, https://xcorvape.com/wp-content/uploads/2024/07/画板-1-1536x948.png 1536w, https://xcorvape.com/wp-content/uploads/2024/07/画板-1-600x370.png 600w" alt="" width="1920" height="1185">
+                    </div>
+                    </div>
+                    </div>
+                    <div class="elementor-element elementor-element-39324fe e-con-full e-flex e-con e-parent" data-id="39324fe" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;full&quot;}" data-core-v316-plus="true">
+                    <div class="elementor-element elementor-element-b11dcea elementor-widget__width-inherit elementor-widget elementor-widget-image" data-id="b11dcea" data-element_type="widget" data-widget_type="image.default">
+                    <div class="elementor-widget-container"><img decoding="async" loading="lazy"  src="https://xcorvape.com/wp-content/uploads/2024/07/画板-2.png" sizes="(max-width: 1920px) 100vw, 1920px" srcset="https://xcorvape.com/wp-content/uploads/2024/07/画板-2.png 1920w, https://xcorvape.com/wp-content/uploads/2024/07/画板-2-300x260.png 300w, https://xcorvape.com/wp-content/uploads/2024/07/画板-2-1024x889.png 1024w, https://xcorvape.com/wp-content/uploads/2024/07/画板-2-768x666.png 768w, https://xcorvape.com/wp-content/uploads/2024/07/画板-2-1536x1333.png 1536w, https://xcorvape.com/wp-content/uploads/2024/07/画板-2-600x521.png 600w" alt="" width="1920" height="1666"></div>
+                    </div>
+                    </div>
+                    <div class="elementor-element elementor-element-d76bd9b e-con-full e-flex e-con e-parent" data-id="d76bd9b" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;full&quot;}" data-core-v316-plus="true">
+                    <div class="elementor-element elementor-element-1474db8 elementor-widget__width-inherit elementor-widget elementor-widget-image" data-id="1474db8" data-element_type="widget" data-widget_type="image.default">
+                    <div class="elementor-widget-container"><img decoding="async" loading="lazy"  src="https://xcorvape.com/wp-content/uploads/2024/07/画板-3.png" sizes="(max-width: 1920px) 100vw, 1920px" srcset="https://xcorvape.com/wp-content/uploads/2024/07/画板-3.png 1920w, https://xcorvape.com/wp-content/uploads/2024/07/画板-3-300x153.png 300w, https://xcorvape.com/wp-content/uploads/2024/07/画板-3-1024x522.png 1024w, https://xcorvape.com/wp-content/uploads/2024/07/画板-3-768x391.png 768w, https://xcorvape.com/wp-content/uploads/2024/07/画板-3-1536x782.png 1536w, https://xcorvape.com/wp-content/uploads/2024/07/画板-3-600x306.png 600w" alt="" width="1920" height="978"></div>
+                    </div>
+                    </div>
+                    <div class="elementor-element elementor-element-e4e7c1a e-con-full e-flex e-con e-parent" data-id="e4e7c1a" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;full&quot;}" data-core-v316-plus="true">
+                    <div class="elementor-element elementor-element-1bcd604 elementor-widget__width-inherit elementor-widget elementor-widget-image" data-id="1bcd604" data-element_type="widget" data-widget_type="image.default">
+                    <div class="elementor-widget-container"><img decoding="async" loading="lazy"  src="https://xcorvape.com/wp-content/uploads/2024/07/画板-4.png" sizes="auto, (max-width: 1920px) 100vw, 1920px" srcset="https://xcorvape.com/wp-content/uploads/2024/07/画板-4.png 1920w, https://xcorvape.com/wp-content/uploads/2024/07/画板-4-300x129.png 300w, https://xcorvape.com/wp-content/uploads/2024/07/画板-4-1024x442.png 1024w, https://xcorvape.com/wp-content/uploads/2024/07/画板-4-768x331.png 768w, https://xcorvape.com/wp-content/uploads/2024/07/画板-4-1536x662.png 1536w, https://xcorvape.com/wp-content/uploads/2024/07/画板-4-600x259.png 600w" alt="" width="1920" height="828"></div>
+                    </div>
+                    </div>
+                    <div class="elementor-element elementor-element-0221a25 e-con-full e-flex e-con e-parent" data-id="0221a25" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;full&quot;}" data-core-v316-plus="true">
+                    <div class="elementor-element elementor-element-dbb1d05 elementor-widget__width-inherit elementor-widget elementor-widget-image" data-id="dbb1d05" data-element_type="widget" data-widget_type="image.default">
+                    <div class="elementor-widget-container"><img decoding="async" loading="lazy"  src="https://xcorvape.com/wp-content/uploads/2024/07/画板-5.png" sizes="auto, (max-width: 1920px) 100vw, 1920px" srcset="https://xcorvape.com/wp-content/uploads/2024/07/画板-5.png 1920w, https://xcorvape.com/wp-content/uploads/2024/07/画板-5-300x178.png 300w, https://xcorvape.com/wp-content/uploads/2024/07/画板-5-1024x608.png 1024w, https://xcorvape.com/wp-content/uploads/2024/07/画板-5-768x456.png 768w, https://xcorvape.com/wp-content/uploads/2024/07/画板-5-1536x912.png 1536w, https://xcorvape.com/wp-content/uploads/2024/07/画板-5-600x356.png 600w" alt="" width="1920" height="1140"></div>
+                    </div>
+                    </div>
+                    <div class="elementor-element elementor-element-8a4e1fa e-con-full e-flex e-con e-parent" data-id="8a4e1fa" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;full&quot;}" data-core-v316-plus="true">
+                    <div class="elementor-element elementor-element-7eb331c elementor-widget__width-inherit elementor-widget elementor-widget-image" data-id="7eb331c" data-element_type="widget" data-widget_type="image.default">
+                    <div class="elementor-widget-container"><img decoding="async" loading="lazy"  src="https://xcorvape.com/wp-content/uploads/2024/07/画板-6.png" sizes="auto, (max-width: 1920px) 100vw, 1920px" srcset="https://xcorvape.com/wp-content/uploads/2024/07/画板-6.png 1920w, https://xcorvape.com/wp-content/uploads/2024/07/画板-6-300x169.png 300w, https://xcorvape.com/wp-content/uploads/2024/07/画板-6-1024x576.png 1024w, https://xcorvape.com/wp-content/uploads/2024/07/画板-6-768x432.png 768w, https://xcorvape.com/wp-content/uploads/2024/07/画板-6-1536x864.png 1536w, https://xcorvape.com/wp-content/uploads/2024/07/画板-6-800x450.png 800w, https://xcorvape.com/wp-content/uploads/2024/07/画板-6-600x338.png 600w" alt="" width="1920" height="1080"></div>
+                    </div>
+                    </div>
+                    <div class="elementor-element elementor-element-a3eb8d2 e-con-full e-flex e-con e-parent" data-id="a3eb8d2" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;full&quot;}" data-core-v316-plus="true">
+                    <div class="elementor-element elementor-element-45b02ae elementor-widget__width-inherit elementor-widget elementor-widget-image" data-id="45b02ae" data-element_type="widget" data-widget_type="image.default">
+                    <div class="elementor-widget-container"><img decoding="async" loading="lazy"  src="https://xcorvape.com/wp-content/uploads/2024/07/画板-7.png" sizes="auto, (max-width: 1920px) 100vw, 1920px" srcset="https://xcorvape.com/wp-content/uploads/2024/07/画板-7.png 1920w, https://xcorvape.com/wp-content/uploads/2024/07/画板-7-300x131.png 300w, https://xcorvape.com/wp-content/uploads/2024/07/画板-7-1024x448.png 1024w, https://xcorvape.com/wp-content/uploads/2024/07/画板-7-768x336.png 768w, https://xcorvape.com/wp-content/uploads/2024/07/画板-7-1536x672.png 1536w, https://xcorvape.com/wp-content/uploads/2024/07/画板-7-600x263.png 600w" alt="" width="1920" height="840"></div>
+                    </div>
+                    </div>
+                    <div class="elementor-element elementor-element-51dfba5 e-con-full e-flex e-con e-parent" data-id="51dfba5" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;full&quot;}" data-core-v316-plus="true">
+                    <div class="elementor-element elementor-element-8ba3d1d elementor-widget__width-inherit elementor-widget elementor-widget-image" data-id="8ba3d1d" data-element_type="widget" data-widget_type="image.default">
+                    <div class="elementor-widget-container"><img decoding="async" loading="lazy"  src="https://xcorvape.com/wp-content/uploads/2024/07/画板-8.png" sizes="auto, (max-width: 1920px) 100vw, 1920px" srcset="https://xcorvape.com/wp-content/uploads/2024/07/画板-8.png 1920w, https://xcorvape.com/wp-content/uploads/2024/07/画板-8-300x192.png 300w, https://xcorvape.com/wp-content/uploads/2024/07/画板-8-1024x656.png 1024w, https://xcorvape.com/wp-content/uploads/2024/07/画板-8-768x492.png 768w, https://xcorvape.com/wp-content/uploads/2024/07/画板-8-1536x984.png 1536w, https://xcorvape.com/wp-content/uploads/2024/07/画板-8-600x384.png 600w" alt="" width="1920" height="1230"></div>
+                    </div>
+                    </div>
+                    </div>
+                    <p><strong><a href="https://www.buchmistrz.pl/tag/3" rel="tag">XCOR</a> DUBAI NIGHT 28000 PUFFS – 28 000 pociągnięć, 21 niezwykłych smaków i innowacyjna technologia w jednym urządzeniu</strong></p>
+                    <p>W dynamicznie rozwijającym się świecie produktów parowniczych, klienci poszukują nie tylko wygody, ale także wyjątkowego doświadczenia smakowego i trwałości.&nbsp;<strong>XCOR DUBAI NIGHT 28000 PUFFS</strong>&nbsp;to nowoczesny pre-pod z&nbsp;<strong>28 000 pociągnięć</strong>, który łączy w sobie wysoką pojemność, innowacyjną technologię oraz niesamowitą paletę&nbsp;<strong>21 unikalnych smaków</strong>. Produkt idealnie nadaje się zarówno dla początkujących użytkowników, jak i zaawansowanych fanów parowania, oferując doskonałą równowagę między komfortem użytkowania, jakością pary a intensywnością aromatów.</p>
+                    <hr>
+                    <h3><strong>Dlaczego warto wybrać XCOR DUBAI NIGHT 28000 PUFFS?</strong></h3>
+                    <p><strong>XCOR DUBAI NIGHT 28000 PUFFS</strong>&nbsp;to nowa generacja pre-podów, która redefiniuje standardy w branży parowniczej. Dzięki&nbsp;<strong>28 000 pociągnięć</strong>&nbsp;w jednym urządzeniu, użytkownik nie musi martwić się o ładowanie baterii ani wymianę podów – produkt zapewnia miesiące bezproblemowego użytkowania. Kompaktowa, ergonomiczna konstrukcja pozwala na swobodne przenoszenie go w kieszeni lub torbie, a jego automatyczny system włączania eliminuje konieczność naciskania przycisków.</p>
+                    <p>Urządzenie zostało wyposażone w&nbsp;<strong>cewkę ceramiczną</strong>, która gwarantuje czystą, intensywną parę bez spalania płynu, co znacząco poprawia jakość smaku. Dodatkowo, XCOR DUBAI NIGHT 28000 PUFFS korzysta z&nbsp;<strong>inteligentnego systemu kontroli temperatury</strong>, który minimalizuje ryzyko przegrzania i zapewnia stabilną emisję pary przy każdej temperaturze otoczenia.</p>
+                    <hr>
+                    <h3><strong>21 wyjątkowych smaków – coś dla każdego gusta!</strong></h3>
+                    <img decoding="async" loading="lazy"  src="https://www.buchmistrz.pl/wp-content/uploads/2e6cda08-49a2-4294-ac5e-6d914581f8e9.png" alt="XCOR DUBAI NIGHT 28000 PUFFS">
+                    <p>Jednym z największych atutów XCOR DUBAI NIGHT 28000 PUFFS jest jego&nbsp;<strong>rozległa różnorodność smaków</strong>. Dostępne w&nbsp;<strong>21 opcjach aromatycznych</strong>, produkt spełni najbardziej wymagające gusta, od słodkich owocowych po egzotyczne mieszanki i nowoczesne kombinacje napojów energetycznych. Oto pełna lista smaków:</p>
+                    <ol>
+                    <li><strong>MIX JAGÓD (MIX BERRIES)</strong>&nbsp;– Klasyczna, intensywna mieszanka czarnego i czerwonego jagod – idealna dla fanów owocowych smaków.</li>
+                    <li><strong>BORÓWKA MALINOWA (BLUEBERRY RASPBERRY)</strong>&nbsp;– Idealna równowaga słodyczy borówki i kwasowości maliny.</li>
+                    <li><strong>GUMOWATY MIŚ<em>&nbsp;(GUMMY BEAR</em>)</strong>&nbsp;– Słodki, miękkiego charakteru smak miękkich cukierków – idealny dla nostalgików.</li>
+                    <li><strong>SOCZYSTA BRZOSKWINIA (JUICY PEACH)</strong>&nbsp;– Soczysta brzoskwinia z nutą cytrynową – idealna na poranek.</li>
+                    <li><strong>POMARAŃCZOWY LÓD (ORANGE ICE)</strong>&nbsp;– Chłodny smak pomarańczy z intensywnym „uderzeniem” lodowym.</li>
+                    <li><strong>POTRÓJNE MANGO (TRIPLE MANGO)</strong>&nbsp;– Trzy warstwy słodkiego, tropikalnego mango – idealne dla fanów egzotycznych smaków.</li>
+                    <li><strong>LÓD ANNASOWY (PINEAPPLE ICE)</strong>&nbsp;– Soczysty ananas z chłodzącym efektem lodowym.</li>
+                    <li><strong>LÓD TRUSKAWKOWY (STRAWBERRY ICE)</strong>&nbsp;– Świeży, słodko-kwaśny smak lodu z dodatkiem soku truskawkowego.</li>
+                    <li><strong>LÓD JABŁKOWY (APPLE ICE)</strong>&nbsp;– Delikatny smak jabłka z nutą cytrynową – idealny na gorące dni.</li>
+                    <li><strong>LÓD ARBUZOWY (WATERMELON ICE)</strong>&nbsp;– Orzeźwiający, chłodny smak soczystego arbuzu – perfekcyjna opcja na upalne dni.</li>
+                    <li><strong>WINOGRONO SAKURA (SAKURA GRAPE)</strong>&nbsp;– Subtelna mieszanka winogrona z nutą kwiatową sakury – idealna dla miłośników egzotycznych smaków.</li>
+                    <li><strong>RÓŻOWA LEMONIADA (PINK LEMONADE)</strong>&nbsp;– Świeża lemoniada z nutą cytrynową i słodkim „uderzeniem” – idealna na wakacje.</li>
+                    <li><strong>KOKS WIŚNIOWY (CHERRY COKE)</strong>&nbsp;– Klasyczna kombinacja wiśni i kolk – idealna dla fanów klasycznych napojów.</li>
+                    <li><strong>LÓD JAGODOWY (BLUEBERRY ICE)</strong>&nbsp;– Chłodny smak borówki z intensywnym „uderzeniem” lodowym.</li>
+                    <li><strong>BAŃKA BORÓWKOWA (BLUEBERRY BUBBLE)</strong>&nbsp;– Soczysta borówka z nutą bąbelkowego napoju – idealna para dla fanów orzeźwiających smaków.</li>
+                    <li><strong>BORÓWKA AMERYKAŃSKA WIŚNIA ŻURAWINA (BLUEBERRY CHERRY CRANBERRY)</strong>&nbsp;– Mieszanka kwaskowych owoców leśnych z intensywnym smakiem wiśni i żurawiny.</li>
+                    <li><strong>MALINA, WIŚNIA, LIMONKA (RASPBERRY CHERRY LIME)</strong>&nbsp;– Słodko-kwaśna malina z nutą wiśni i cytrynową limonką – idealna dla osób szukających różnorodności.</li>
+                    <li><strong>TRUSKAWKA KIWI (STRAWBERRY KIWI)</strong>&nbsp;– Świeży aromat kiwi z intensywnym smakiem truskawki.</li>
+                    <li><strong>ARBUZ TRUSKAWKOWY (STRAWBERRY WATERMELON)</strong>&nbsp;– Soczysty arbuz z intensywnym smakiem truskawki – idealna para dla fanów owocowo-lodowych kombinacji.</li>
+                    <li><strong>WINOGRONA ALOESOWE (ALOE GRAPE)</strong>&nbsp;– Delikatne winogrono z nutą aloesu – idealna opcja dla osób ceniących naturalne smaki.</li>
+                    <li><strong>WINOGRONO RYŃSKIE (RHINE GRAPE)</strong>&nbsp;– Intensywny smak ryńskiego winogrona z nutą cytrynową – idealny dla fanów owocowych smaków.</li>
+                    </ol>
+                    <hr>
+                    <h3><strong>Technologia na najwyższym poziomie</strong></h3>
+                    <p>XCOR DUBAI NIGHT 28000 PUFFS został zaprojektowany z myślą o maksymalnej wydajności i komforcie użytkowania. Wyróżnia się:</p>
+                    <ul>
+                    <li><strong>Ceramiczna cewka</strong>&nbsp;– Zapewnia czystą, intensywną parę bez spalania płynu, co wpływa na dłuższą trwałość smaku.</li>
+                    <li><strong>Inteligentny system kontroli temperatury</strong>&nbsp;– Minimalizuje ryzyko przegrzania i zapobiega spaleniu płynu, co poprawia jakość pary.</li>
+                    <li><strong>Stabilna dawka soli nikotyny</strong>&nbsp;(jeśli produkt taki zawiera) – Szybkie spełnienie potrzeb bez nieprzyjemnego uczucia „uderzenia” w gardło.</li>
+                    <li><strong>Bezpieczeństwo i jakość materiałów</strong>&nbsp;– Urządzenie zostało wykonane z odpornych na uszkodzenia materiałów i spełnia wszystkie normy bezpieczeństwa Unii Europejskiej.</li>
+                    </ul>
+                    <hr>
+                    <h3><strong>Idealny wybór dla różnych stylów życia</strong></h3>
+                    <p>XCOR DUBAI NIGHT 28000 PUFFS to nie tylko produkt do parowania – to narzędzie idealne do codziennego użytku w różnych sytuacjach:</p>
+                    <ul>
+                    <li><strong>W pracy</strong>&nbsp;– Dyskretny, kompaktowy design pozwala na korzystanie z urządzenia w biurze bez zakłócania innych.</li>
+                    <li><strong>Na imprezach</strong>&nbsp;– Bogata paleta smaków sprawia, że każdy znajdzie swój ulubiony aromat.</li>
+                    <li><strong>W podróży</strong>&nbsp;– 28 000 pociągnięć gwarantuje, że nie trzeba pamiętać o ładowaniu baterii.</li>
+                    <li><strong>Podczas relaksu w domu</strong>&nbsp;– Komfort użytkowania i intensywność smaku sprawiają, że parowanie staje się prawdziwym zmartwieniem.</li>
+                    </ul>
+                    <hr>
+                    <h3><strong>Bezpieczeństwo i legalność</strong></h3>
+                    <p>XCOR DUBAI NIGHT 28000 PUFFS spełnia wszystkie normy bezpieczeństwa obowiązujące na całym świecie, w tym standardy Unii Europejskiej. Produkt został poddany wielu testom jakości, a jego skład jest kontrolowany i przebadany pod kątem szkodliwych substancji. Jeśli chodzi o produkty parownicze, bezpieczeństwo użytkownika zawsze stoi na pierwszym miejscu.</p>
+                    <hr>
+                    <h3><strong>Podsumowanie</strong></h3>
+                    <p><strong>XCOR DUBAI NIGHT 28000 PUFFS</strong>&nbsp;to rewelacyjny pre-pod, który łączy w sobie&nbsp;<strong>28 000 pociągnięć</strong>,&nbsp;<strong>21 niepowtarzalnych smaków</strong>&nbsp;i nowoczesną technologię. Idealny dla osób przechodzących na parowanie z tradycyjnych papierosów, a także dla tych, którzy cenią sobie innowacyjne rozwiązania i różnorodność smaków. Dzięki ceramicznej cewce, inteligentnemu systemowi kontroli temperatury oraz stabilnej dawce soli nikotyny (jeśli dotyczy), produkt gwarantuje komfort użytkowania i intensywność smaku przy każdym pociągnięciu.</p>
+                    <p>Wypróbuj jeden z&nbsp;<strong>21 aromatów</strong>&nbsp;i poczuj różnicę, którą XCOR DUBAI NIGHT 28000 PUFFS może zapewnić. Dostępne online i w sklepach specjalistycznych – wybierz swój ulubiony smak już dziś!</p>
+                    <p><strong>XCOR DUBAI NIGHT 28000 PUFFS – Smak, który zostaje.</strong></p>
+                </div>
+            </div>
+            
+            <!-- FIZZY TWINS 50000 PUFFS -->
+            <div class="row product-details mb-5">
+                <div class="col-md-6 order-md-2">
+                <img decoding="async" loading="lazy"  src="https://www.buchmistrz.pl/wp-content/uploads/Fizzy-Twins-50000Puffs.png.webp" alt="FIZZY TWINS 50000 PUFFS" class="img-fluid">
+                </div>
+                <div class="col-md-6 order-md-1">
+                <h3>FIZZY TWINS 50000 PUFFS</h3>
+                <p>Najwyższy standard – 50,000 wdechów! To najsilniejszy e-papieros jednorazowy w naszej ofercie, który zapewni Ci nieprzerwaną rozrywkę przez wiele godzin.</p>
+                <ul>
+                    <li><strong>Pojemność:</strong> 50,000 puffs</li>
+                    <li><strong>Liczba smaków:</strong> 9</li>
+                    <li><strong>Pojemność baterii:</strong> 1600 mAh</li>
+                    <li><strong>Stężenie nikotyny:</strong> 50 mg</li>
+                </ul>
+                <a href="#products" class="btn btn-primary">Zobacz szczegóły</a>
+                </div>
+                <div class="col-md-12" id="product-details">
+                    <p><strong><a href="https://www.buchmistrz.pl/tag/8" rel="tag">FIZZY</a> TWINS DWUSMAKOWE 50000 PUFFS – 50 000 pociągnięć, 15 niezwykłych dwusmakowych kombinacji i innowacyjna technologia w jednym urządzeniu</strong></p>
+                    <p>W dynamicznie rozwijającym się świecie produktów parowniczych, klienci poszukują nie tylko wygody, ale także wyjątkowego doświadczenia smakowego i trwałości.&nbsp;<strong>FIZZY TWINS DWUSMAKOWE 50000 PUFFS</strong>&nbsp;to nowoczesny pre-pod z&nbsp;<strong>50 000 pociągnięć</strong>, który łączy w sobie wysoką pojemność, innowacyjną technologię oraz niesamowitą paletę&nbsp;<strong>15 unikalnych dwusmakowych kombinacji</strong>. Produkt idealnie nadaje się zarówno dla początkujących użytkowników, jak i zaawansowanych fanów parowania, oferując doskonałą równowagę między komfortem użytkowania, jakością pary a intensywnością aromatów.</p>
+                    <img decoding="async" loading="lazy"  src="https://fizzyvape.com/wp-content/uploads/2025/04/Fizzy-Twins-50000-Puffs-Disposable-Vape-1.jpg.webp" alt="Fizzy Twins 50000 Puffs Disposable Vape">
+                    <hr>
+                    <h3><strong>Dlaczego warto wybrać FIZZY TWINS DWUSMAKOWE 50000 PUFFS?</strong></h3>
+                    <p><strong>FIZZY TWINS DWUSMAKOWE 50000 PUFFS</strong>&nbsp;to nowa generacja pre-podów, która redefiniuje standardy w branży parowniczej. Dzięki&nbsp;<strong>50 000 pociągnięć</strong>&nbsp;w jednym urządzeniu, użytkownik nie musi martwić się o ładowanie baterii ani wymianę podów – produkt zapewnia miesiące bezproblemowego użytkowania. Kompaktowa, ergonomiczna konstrukcja pozwala na swobodne przenoszenie go w kieszeni lub torbie, a jego automatyczny system włączania eliminuje konieczność naciskania przycisków.</p>
+                    <p>Urządzenie zostało wyposażone w&nbsp;<strong>cewkę ceramiczną</strong>, która gwarantuje czystą, intensywną parę bez spalania płynu, co znacząco poprawia jakość smaku. Dodatkowo, FIZZY TWINS DWUSMAKOWE 50000 PUFFS korzysta z&nbsp;<strong>inteligentnego systemu kontroli temperatury</strong>, który minimalizuje ryzyko przegrzania i zapewnia stabilną emisję pary przy każdej temperaturze otoczenia.</p>
+                    <img decoding="async" loading="lazy"  src="https://fizzyvape.com/wp-content/uploads/2025/04/Fizzy-Twins-50000-Puffs-Disposable-Vape-Flavors--scaled.jpg.webp" alt="Fizzy Twins 50000 Puffs Disposable Vape Flavors">
+                    <hr>
+                    <h3><strong>15 niepowtarzalnych dwusmakowych kombinacji – coś dla każdego gusta!</strong></h3>
+                    <img decoding="async" loading="lazy"  src="https://www.buchmistrz.pl/wp-content/uploads/b7752950-79f2-4864-b9af-354e7f7afca5.png" alt="FIZZY TWINS DWUSMAKOWE 50000 PUFFS">
+                    <p>Jednym z największych atutów FIZZY TWINS DWUSMAKOWE 50000 PUFFS jest jego&nbsp;<strong>rozległa różnorodność smaków</strong>. Dostępne w&nbsp;<strong>15 opcjach dwusmakowych</strong>, produkt spełni najbardziej wymagające gusta, od słodkich owocowych po egzotyczne mieszanki i nowoczesne kombinacje napojów energetycznych. Oto pełna lista smaków:</p>
+                    <ol>
+                    <li><strong>LÓD ARBUZOWY / TRUSKAWKA KIWI (WATERMELON ICE / STRAWBERRY KIWI)</strong>&nbsp;– Chłodny smak soczystego arbuzu i świeży aromat truskawki z nutą kiwi – idealna para dla fanów owocowo-lodowych kombinacji.</li>
+                    <li><strong>TRUSKAWKA KIWI GRANAT / RED BULL (STRAWBERRY KIWI POMEGRANATE / RED BULL)</strong>&nbsp;– Egzotyczna mieszanka truskawki, kiwi i granatu z energią napoju Red Bull – idealna dla osób szukających impulsu.</li>
+                    <li><strong>BORÓWKA, KOKOS / LÓD WINOGRONOWY (BLUEBERRY COCONUT / GRAPE ICE)</strong>&nbsp;– Soczysta borówka z nutą kokosu i chłodny smak winogrona – idealna kombinacja dla miłośników tropikalnych smaków.</li>
+                    <li><strong>LEMONIADA BLUERAZZ / POTRÓJNY MELON (BLUERAZZ LEMONADE / TRIPLE MELON)</strong>&nbsp;– Świeża lemoniada Bluerazz i trzy warstwy słodkiego melonu – idealna para na upalne dni.</li>
+                    <li><strong>TRUSKAWKOWY ARBUZ / LÓD JAGODOWY (STRAWBERRY WATERMELON / BLUEBERRY ICE)</strong>&nbsp;– Soczysty arbuz z intensywnym smakiem truskawki i chłodny aromat borówki – doskonała równowaga słodyczy i orzeźwienia.</li>
+                    <li><strong>BRZOSKWINIA MANGO ARBUZ / TRUSKAWKA (PEACH MANGO WATERMELON / STRAWBERRY)</strong>&nbsp;– Tropikalna mieszanka brzoskwinii, mango i arbuzu z intensywnym smakiem truskawki – idealna dla fanów egzotycznych smaków.</li>
+                    <li><strong>BANAN (BANANA)</strong>&nbsp;– Klasyka wśród owocowych smaków – subtelny, słodki banan z nutą cytrynową.</li>
+                    <li><strong>MALINOWY ARBUZ / KIWI MARAKUJA (RASPBERRY WATERMELON / KIWI PASSION FRUIT)</strong>&nbsp;– Słodko-kwaśna malina z chłodnym arbuzem i intensywnym smakiem kiwi i marakuji – idealna para dla fanów owocowo-cytrynowych kombinacji.</li>
+                    <li><strong>GUAWA (GUAVA)</strong>&nbsp;– Słodki, egzotyczny smak guawy z nutą cytrynową – idealny dla osób ceniących naturalne aromaty.</li>
+                    <li><strong>ANANAS BRZOSKWINIA MARAKUJA / BORÓWKA (PINEAPPLE PEACH PASSIONFRUIT / BLUEBERRY)</strong>&nbsp;– Tropikalna mieszanka ananasu, brzoskwinii i marakuji z intensywnym smakiem borówki – idealna dla fanów nowoczesnych kombinacji.</li>
+                    <li><strong>MALINA (RASPBERRY)</strong>&nbsp;– Klasyczna, intensywna malina z delikatnym „uderzeniem” – idealna dla miłośników prostych, czystych smaków.</li>
+                    <li><strong>LÓD ARBUZOWY / CYTRYNA LIMONKA (WATERMELON ICE / LEMON LIME)</strong>&nbsp;– Chłodny smak arbuzu z orzeźwiającą cytrusową nutą – idealna para na gorące dni.</li>
+                    <li><strong>MIESZANY LÓD JAGODOWO-BRZOSKWINIOWY (MIXED BERRY / PEACH ICE)</strong>&nbsp;– Klasyczna kombinacja różnych jagód i chłodnego smaku brzoskwinii – idealna dla osób ceniących różnorodność.</li>
+                    <li><strong>LÓD TRUSKAWKOWY / WIŚNIA GAZOWANA (STRAWBERRY ICE / FIZZY CHERRY)</strong>&nbsp;– Świeży lód truskawkowy i kwasowa, gazowana wiśnia – idealna para dla fanów słodko-kwaśnych smaków.</li>
+                    <li><strong>LEMONIADA MALINOWA / LÓD TRUSKAWKOWY (RASPBERRY LEMONADE / STRAWBERRY ICE)</strong>&nbsp;– Świeża lemoniada malinowa i chłodny smak lodu truskawkowego – idealna kombinacja dla miłośników cytrusowych i owocowych aromatów.</li>
+                    </ol>
+                    <hr>
+                    <h3><strong>Technologia na najwyższym poziomie</strong></h3>
+                    <p>FIZZY TWINS DWUSMAKOWE 50000 PUFFS został zaprojektowany z myślą o maksymalnej wydajności i komforcie użytkowania. Wyróżnia się:</p>
+                    <ul>
+                    <li><strong>Ceramiczna cewka</strong>&nbsp;– Zapewnia czystą, intensywną parę bez spalania płynu, co wpływa na dłuższą trwałość smaku.</li>
+                    <li><strong>Inteligentny system kontroli temperatury</strong>&nbsp;– Minimalizuje ryzyko przegrzania i zapobiega spaleniu płynu, co poprawia jakość pary.</li>
+                    <li><strong>Stabilna dawka soli nikotyny</strong>&nbsp;(jeśli produkt taki zawiera) – Szybkie spełnienie potrzeb bez nieprzyjemnego uczucia „uderzenia” w gardło.</li>
+                    <li><strong>Bezpieczeństwo i jakość materiałów</strong>&nbsp;– Urządzenie zostało wykonane z odpornych na uszkodzenia materiałów i spełnia wszystkie normy bezpieczeństwa Unii Europejskiej.</li>
+                    </ul>
+                    <hr>
+                    <h3><strong>Idealny wybór dla różnych stylów życia</strong></h3>
+                    <p>FIZZY TWINS DWUSMAKOWE 50000 PUFFS to nie tylko produkt do parowania – to narzędzie idealne do codziennego użytku w różnych sytuacjach:</p>
+                    <ul>
+                    <li><strong>W pracy</strong>&nbsp;– Dyskretny, kompaktowy design pozwala na korzystanie z urządzenia w biurze bez zakłócania innych.</li>
+                    <li><strong>Na imprezach</strong>&nbsp;– Bogata paleta smaków sprawia, że każdy znajdzie swój ulubiony aromat.</li>
+                    <li><strong>W podróży</strong>&nbsp;– 50 000 pociągnięć gwarantuje, że nie trzeba pamiętać o ładowaniu baterii.</li>
+                    <li><strong>Podczas relaksu w domu</strong>&nbsp;– Komfort użytkowania i intensywność smaku sprawiają, że parowanie staje się prawdziwym zmartwieniem.</li>
+                    </ul>
+                    <hr>
+                    <h3><strong>Bezpieczeństwo i legalność</strong></h3>
+                    <p>FIZZY TWINS DWUSMAKOWE 50000 PUFFS spełnia wszystkie normy bezpieczeństwa obowiązujące na całym świecie, w tym standardy Unii Europejskiej. Produkt został poddany wielu testom jakości, a jego skład jest kontrolowany i przebadany pod kątem szkodliwych substancji. Jeśli chodzi o produkty parownicze, bezpieczeństwo użytkownika zawsze stoi na pierwszym miejscu.</p>
+                    <img decoding="async" loading="lazy"  src="https://fizzyvape.com/wp-content/uploads/2025/04/Fizzy-Twins-50000-Puffs-Disposable-Vape-1-1-scaled.jpg.webp" alt="Fizzy Twins 50000 Puffs Disposable Vape">
+                    <hr>
+                    <h3><strong>Podsumowanie</strong></h3>
+                    <p><strong>FIZZY TWINS DWUSMAKOWE 50000 PUFFS</strong>&nbsp;to rewelacyjny pre-pod, który łączy w sobie&nbsp;<strong>50 000 pociągnięć</strong>,&nbsp;<strong>15 niepowtarzalnych dwusmakowych kombinacji</strong>&nbsp;i nowoczesną technologię. Idealny dla osób przechodzących na parowanie z tradycyjnych papierosów, a także dla tych, którzy cenią sobie innowacyjne rozwiązania i różnorodność smaków. Dzięki ceramicznej cewce, inteligentnemu systemowi kontroli temperatury oraz stabilnej dawce soli nikotyny (jeśli dotyczy), produkt gwarantuje komfort użytkowania i intensywność smaku przy każdym pociągnięciu.</p>
+                    <p>Wypróbuj jedną z&nbsp;<strong>15 dwusmakowych kombinacji</strong>&nbsp;i poczuj różnicę, którą FIZZY TWINS DWUSMAKOWE 50000 PUFFS może zapewnić. Dostępne online i w sklepach specjalistycznych – wybierz swoją ulubioną parę smaków już dziś!</p>
+                    <p><strong>FIZZY TWINS DWUSMAKOWE 50000 PUFFS – Smak, który zostaje.</strong></p>   
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="py-5" id="faq">
+        <div class="container">
+            <h2 class="section-title">Najczęściej zadawane pytania</h2>
+            <div class="accordion" id="faqAccordion">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            Czy produkty są dostępne na magazynie?
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            Tak, wszystkie produkty wymienione na stronie są aktualnie dostępne na magazynie.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            Jak długo trwa dostawa?
+                        </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            Dostawa do Polski zwykle trwa od 3 do 7 dni roboczych, w zależności od wybranej firmy kurierskiej.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            Czy można zwrócić produkt?
+                        </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            Tak, masz 14 dni na zwrot towaru od daty otrzymania. Produkt musi być nieużywany i w oryginalnym opakowaniu.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingFour">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                            Jak mogę skontaktować się z obsługą klienta?
+                        </button>
+                    </h2>
+                    <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            Możesz skorzystać z formularza kontaktowego, WhatsAppa lub Telegrama. Linki znajdują się u dołu strony.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 产品详情模态框 -->
+    <div class="modal fade" id="productModal" tabindex="-1" aria-labelledby="productModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl modal-dialog-centered">
+            <div class="modal-content">
+                <!-- 面包屑导航 -->
+                <div class="breadcrumb-container">
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb">
+                            <!-- <li class="breadcrumb-item"><a href="#home">Strona główna</a></li> -->
+                            <li class="breadcrumb-item"><a href="#products">Produkty</a></li>
+                            <li class="breadcrumb-item active" aria-current="page" id="breadcrumbProduct">Szczegóły produktu</li>
+                        </ol>
+                    </nav>
+                </div>
+                
+                <div class="modal-header">
+                    <h5 class="modal-title" id="productModalLabel">Szczegóły produktu</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <!-- 严格按照图片格式的口味表格 -->
+                    <div class="table-responsive">
+                        <table class="table table-bordered flavor-table" onclick="goToChat()">
+                            <thead>
+                                <tr>
+                                    <th rowspan="2" style="vertical-align: middle; width: 15%;">Numer/Model produktu</th>
+                                    <th rowspan="2" style="vertical-align: middle; width: 8%;">Nr</th>
+                                    <th colspan="3" style="text-align: center;">Smaki</th>
+                                </tr>
+                                <tr>
+                                    <th style="width: 26%;">English</th>
+                                    <th style="width: 26%;">中文</th>
+                                    <th style="width: 26%;">Polski</th>
+                                </tr>
+                            </thead>
+                            <tbody id="productFlavorTable">
+                                <!-- 产品口味将通过JavaScript动态填充 -->
+                            </tbody>
+                        </table>
+                    </div>
+                    
+                    <div class="alert alert-info mt-3">
+                        <i class="fas fa-info-circle me-2"></i>
+                        Kliknij w dowolne miejsce w tabeli, aby przejść do strony czatu
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- 表单模态框 -->
+    <div class="modal fade" id="formModal" tabindex="-1" aria-labelledby="formModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="formModalLabel">Formularz kontaktowy</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form id="contactForm" method="POST">
+                        <!-- Imię i nazwisko -->
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Imię i nazwisko</label>
+                            <input type="text" class="form-control" id="name" name="name" placeholder="Nazwisko i płeć" required>
+                        </div>
+
+                        <!-- Adres tel -->
+                        <div class="mb-3">
+                            <label for="tel" class="form-label">Numer telefonu</label>
+                            <input type="tel" class="form-control" id="tel" name="phone" placeholder="+48..." pattern="^\+?[0-9\s\-\(\)]{7,}$" required>
+                        </div>
+
+                        <!-- Adres e-mail -->
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Adres e-mail</label>
+                            <input type="email" class="form-control" id="email" name="email" placeholder="lopinv@xxxx.com" required>
+                        </div>
+
+                        <!-- Adres wysyłki -->
+                        <div class="mb-3">
+                            <label for="address" class="form-label">Adres wysyłki</label>
+                            <input type="text" class="form-control" id="address" name="address" placeholder="Adres wysyłki( kod paczkomatu )" required>
+                        </div>
+
+                        <!-- contact_method / social_account -->
+                        <div class="mb-3">
+                            <label for="telegram" class="form-label">Telegram</label>
+                            <input type="text" class="form-control" id="telegram" name="telegram" placeholder="Nazwa użytkownika / Numer telefonu">
+                        </div>
+
+                        <!-- contact_method / social_account -->
+                        <div class="mb-3">
+                            <label for="whatsapp" class="form-label">WhatsApp</label>
+                            <input type="text" class="form-control" id="whatsapp" name="whatsapp" placeholder="Nazwa użytkownika / Numer telefonu">
+                        </div>
+
+                        <!-- Wybór produktu -->
+                        <div class="mb-3">
+                            <label for="productSelect" class="form-label">Wybierz produkt</label>
+                            <select class="form-select" id="productSelect" name="product">
+                                <option value="Wielokrotny">Wielokrotny</option>
+                                <option value="XCOR 12000 PUFFS">XCOR 12000 PUFFS</option>
+                                <option value="RANDM TORNADO 15000 PUFFS">RANDM TORNADO 15000 PUFFS</option>
+                                <option value="Crystal Blind 25000 PUFFS">Crystal Blind 25000 PUFFS</option>
+                                <option value="FUMOT TORNADO 20000 PUFFS">FUMOT TORNADO 20000 PUFFS</option>
+                                <option value="XCOR DUBAI NIGHT 28000 PUFFS">XCOR DUBAI NIGHT 28000 PUFFS</option>
+                                <option value="FIZZY TWINS 50000 PUFFS">FIZZY TWINS 50000 PUFFS</option>
+                            </select>
+                        </div>
+
+                        <!-- Wiadomość -->
+                        <div class="mb-3">
+                            <label for="message" class="form-label">Wiadomość</label>
+                            <textarea class="form-control" id="message" name="message" rows="3" required></textarea>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Zamknij</button>
+                    <button type="submit" class="btn btn-primary" form="contactForm">Wyślij</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 选择对话软件模态框 -->
+    <div class="modal fade" id="chatChoiceModal" tabindex="-1" aria-labelledby="chatChoiceModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="chatChoiceModalLabel">Wybierz sposób komunikacji</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body text-center">
+                    <p class="mb-4">Wybierz preferowaną aplikację do czatu:</p>
+                    <div class="d-grid gap-3">
+                        <button class="btn btn-telegram btn-lg" onclick="selectChatApp('telegram')">
+                            <i class="fab fa-telegram-plane me-2"></i>
+                            Użyj Telegram
+                        </button>
+                        <button class="btn btn-whatsapp btn-lg" onclick="selectChatApp('whatsapp')">
+                            <i class="fab fa-whatsapp me-2"></i>
+                            Użyj WhatsApp
+                        </button>
+                        <button class="btn btn-wpforms btn-lg" onclick="gotoForm('Wielokrotny')">
+                            <i class="fab fa-wpforms me-2"></i>
+                            Użyj Komunikat
+                        </button>
+                    </div>
+                </div>
+                <div class="modal-footer justify-content-center">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Anuluj</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 返回顶部按钮 -->
+    <button class="back-to-top" id="backToTop" onclick="scrollToTop()">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <!-- 美化页脚 -->
+    <footer class="py-5 mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <h5><i class="fas fa-info-circle me-2"></i>O nas</h5>
+                    <p class="text-muted">Szukasz stylowego e-papierosa? Buch Mistrz to dobry wybór – nowoczesne i gotowe jednorazówki z fajnymi smakami! ✨ Kup szybko online lub sprawdź hurtową ofertę. Dobre jakość i wygoda na co dzień.🚬🔥</p>
+                    <div class="social-links">
+                        <a href="javascript:;" onclick="openWhatsApp()" target="_blank" rel="nofollow"><i class="fab fa-whatsapp"></i></a>
+                        <a href="javascript:;" onclick="openTelegram()" target="_blank" rel="nofollow"><i class="fab fa-telegram"></i></a>
+                        <a href="javascript:;" onclick="openTelegram()" target="_blank" rel="nofollow"><i class="fab fa-facebook-f"></i></a>
+                        <a href="javascript:;" onclick="openTelegram()" target="_blank" rel="nofollow"><i class="fab fa-twitter"></i></a>
+                        <a href="javascript:;" onclick="openTelegram()" target="_blank" rel="nofollow"><i class="fab fa-instagram"></i></a>
+                        <a href="javascript:;" onclick="openTelegram()" target="_blank" rel="nofollow"><i class="fab fa-youtube"></i></a>
+                        <a href="javascript:;" onclick="openTelegram()" target="_blank" rel="nofollow"><i class="fab fa-tiktok"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6 mb-4">
+                    <h5><i class="fas fa-link me-2"></i>O nas</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="https://t.me/+pP3RvnRfsgkyNDU8">Telegram Group</a></li>
+                        <li><a href="https://chat.whatsapp.com/IL4rxWm7hkZJ6XM3CyC1lC">WhatsApp Group</a></li>
+                        <li><a href="https://www.buchmistrz.pl/contact">Skontaktuj się z nami</a></li>
+                        <li><a href="https://www.buchmistrz.pl/?ref=lopinv">Oficjalna Strona</a></li>
+                        <li><a href="https://www.buchmistrz.pl/knowledge">Blog i FAQ</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <h5><i class="fas fa-boxes me-2"></i>Produkty</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#XCOR">Seria XCOR</a></li>
+                        <li><a href="#randm">RANDM TORNADO</a></li>
+                        <li><a href="#crystal">Crystal Blind</a></li>
+                        <li><a href="#fumot">Seria FUMOT</a></li>
+                        <li><a href="#fizzy">FIZZY TWINS</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <h5><i class="fas fa-phone me-2"></i>Kontakt</h5>
+                    <ul class="list-unstyled contact-info">
+                        <!-- <li class="text-muted mb-2">
+                            <i class="fas fa-map-marker-alt"></i>
+                            Jiading, Shanghai, Chiny
+                        </li> -->
+                        <li class="text-muted mb-2">
+                            <i class="fab fa-telegram"></i>
+                            <a href="javascript:;" onclick="openTelegram()" target="_blank" rel="nofollow">@buch_mistrz</a>
+                        </li>
+                        <li class="text-muted mb-2">
+                            <i class="fab fa-whatsapp"></i>
+                            <a href="javascript:;" onclick="openWhatsApp()" target="_blank" rel="nofollow">+48 729 250 699</a>
+                        </li>
+                        <li class="text-muted mb-2">
+                            <i class="fas fa-envelope"></i>
+                            <a href="javascript:;" onclick="gotoForm('')">Formularz kontaktowy</a>
+                        </li>
+
+                        <li class="text-muted">
+                            <i class="fas fa-clock"></i>
+                            09:00-23:00 CET / CEST
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <p class="text-muted mb-0">&copy; 2025 E-papierosy Store. Wszelkie prawa zastrzeżone.</p>
+                </div>
+                <div class="col-md-6 text-md-end">
+                    <!-- <a href="https://www.buchmistrz.pl/?ref=lopinv" class="me-3">Warunki korzystania</a> -->
+                    <a href="https://www.buchmistrz.pl/privacy" class="me-3">Polityka prywatności</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.bundle.min.js" integrity="sha512-7Pi/otdlbbCR+LnW+F7PwFcSDJOuUJB3OxtEHbg4vSMvzvJjde4Po1v4BR9Gdc9aXNUNFVUY+SK51wWT8WF0Gg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js" integrity="sha512-ju6u+4bPX50JQmgU97YOGAXmRMrD9as4LE05PdC3qycsGQmjGlfm041azyB1VfCXpkpt1i9gqXCT6XuxhBJtKg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>	
+    <script>
+        // 页面加载完成后隐藏加载动画
+        window.addEventListener('load', function() {
+            setTimeout(() => {
+                document.getElementById('loadingOverlay').classList.add('hide');
+            }, 500);
+        });
+
+        // 返回顶部按钮显示/隐藏
+        window.addEventListener('scroll', function() {
+            const backToTop = document.getElementById('backToTop');
+            const navbar = document.querySelector('.navbar');
+            
+            if (window.scrollY > 300) {
+                backToTop.classList.add('show');
+            } else {
+                backToTop.classList.remove('show');
+            }
+            
+            // 导航栏滚动效果
+            if (window.scrollY > 50) {
+                navbar.style.background = 'linear-gradient(135deg, rgba(102, 126, 234, 0.95) 0%, rgba(118, 75, 162, 0.95) 100%)';
+                navbar.style.backdropFilter = 'blur(10px)';
+            } else {
+                navbar.style.background = 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)';
+                navbar.style.backdropFilter = 'none';
+            }
+        });
+
+        // 返回顶部功能
+        function scrollToTop() {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        }
+
+        // 搜索功能
+        function searchProducts() {
+            const searchTerm = document.getElementById('searchInput').value.toLowerCase();
+            const productCards = document.querySelectorAll('[data-product]');
+            
+            productCards.forEach(card => {
+                const productName = card.getAttribute('data-product').toLowerCase();
+                if (productName.includes(searchTerm)) {
+                    card.style.display = 'block';
+                } else {
+                    card.style.display = 'none';
+                }
+            });
+        }
+
+        // 搜索框回车事件
+        document.getElementById('searchInput').addEventListener('keypress', function(e) {
+            if (e.key === 'Enter') {
+                searchProducts();
+            }
+        });
+
+        // 显示产品详情
+        function showProductDetails(productName) {
+            document.getElementById('productModalLabel').textContent = productName;
+            document.getElementById('breadcrumbProduct').textContent = productName;
+            const productData = productDetails[productName];
+            const tableBody = document.getElementById('productFlavorTable');
+            
+            tableBody.innerHTML = '';
+            
+            if (productData && productData.flavors) {
+                productData.flavors.forEach((flavor, index) => {
+                    const row = document.createElement('tr');
+                    if (flavor.isHot) {
+                        row.className = 'hot-flavor';
+                    }
+                    
+                    // 第一行显示产品名称，后续行为空
+                    const productCell = index === 0 ? 
+                        `<td rowspan="${productData.flavors.length}" style="vertical-align: middle; font-weight: bold; background: #f8f9fa;">${productName}</td>` : 
+                        '';
+                    
+                    row.innerHTML = `
+                        ${productCell}
+                        <td style="font-weight: bold;">${flavor.id}</td>
+                        <td>${flavor.en}</td>
+                        <td>${flavor.zh}</td>
+                        <td>${flavor.pl}</td>
+                    `;
+                    tableBody.appendChild(row);
+                });
+            }
+        }
+
+        // 跳转到表单页面
+        function gotoForm(productName) {
+            const productModal = bootstrap.Modal.getInstance(document.getElementById('productModal'));
+            if (productModal) {
+                productModal.hide();
+            }
+            // 设置默认产品
+            const productSelect = document.getElementById('productSelect');
+            if (productName && productSelect) {
+                productSelect.value = productName;
+            }
+            setTimeout(() => {
+                const formModal = new bootstrap.Modal(document.getElementById('formModal'));
+                formModal.show();
+            }, 300);
+        }
+
+
+        // 跳转到对话页面
+        function goToChat() {
+            const productModal = bootstrap.Modal.getInstance(document.getElementById('productModal'));
+            if (productModal) {
+                productModal.hide();
+            }
+            
+            setTimeout(() => {
+                const chatChoiceModal = new bootstrap.Modal(document.getElementById('chatChoiceModal'));
+                chatChoiceModal.show();
+            }, 300);
+        }
+
+        // 选择对话软件
+        function selectChatApp(app) {
+            const chatChoiceModal = bootstrap.Modal.getInstance(document.getElementById('chatChoiceModal'));
+            if (chatChoiceModal) {
+                chatChoiceModal.hide();
+            }
+            
+            if (app === 'telegram') {
+                openTelegram();
+            } else if (app === 'whatsapp') {
+                openWhatsApp();
+            }
+        }
+
+        // 打开Telegram
+        function openTelegram() {
+            window.open(`https://t.me/${telegramNumber}?text=${encodeURIComponent(chatmessage)}`, '_blank');
+        }
+        // 打开Telegram Group
+        function openTelegramGroup() {
+            window.open(`https://t.me/${telegramgroup}?text=${encodeURIComponent(chatmessage)}`, '_blank');
+        }
+
+        // 打开WhatsApp
+        function openWhatsApp() {
+            window.open(`https://wa.me/${whatsappNumber}?text=${encodeURIComponent(chatmessage)}`, '_blank');
+        }
+        // 打开WhatsApp Group
+        function openWhatsAppGroup() {
+            window.open(`https://chat.whatsapp.com/${whatsappgroup}?text=${encodeURIComponent(chatmessage)}`, '_blank');
+        }
+
+        // 产品详情数据
+        const productDetails = {
+            'XCOR 12000 PUFFS': {
+                flavors: [
+                    { id: 1, en: 'BRUICE', zh: '布鲁斯', pl: 'BRUICE', isHot: true },
+                    { id: 2, en: 'JUICY PEACH', zh: '多汁桃子', pl: 'SOCZYSYA BRZOSKWINIA', isHot: true },
+                    { id: 3, en: 'BLUEBERRY CHERRY CRANBERRY', zh: '蓝莓樱桃蔓越莓', pl: 'BOROWKA AMERYKANSKA WISNIA ZURAWINA', isHot: true },
+                    { id: 4, en: 'BLUEBERRY RASPBERRY', zh: '蓝莓树莓', pl: 'BOROWKA MALINOWA', isHot: false },
+                    { id: 5, en: 'MIXED BERRY', zh: '混合浆果', pl: 'MIX JAGODY', isHot: false },
+                    { id: 6, en: 'GUMMY BEAR', zh: '小熊软糖', pl: 'GUMMI MISIE', isHot: false },
+                    { id: 7, en: 'BUBBA BUBBA', zh: 'BUBO·布巴', pl: 'BUBBA BUBBA', isHot: false },
+                    { id: 8, en: 'SKITTLES', zh: '乐事', pl: 'SKITTLES', isHot: false },
+                    { id: 9, en: 'SAKURA GRAPE', zh: '樱花葡萄', pl: 'WINOGRONO SAKURA', isHot: false },
+                    { id: 10, en: 'LEMON LIME', zh: '柠檬石灰', pl: 'CYTRYNA LIMONKA', isHot: false },
+                    { id: 11, en: 'STRAWBERRY ICE', zh: '草莓冰', pl: 'LOD TRUSKAWKOWY', isHot: false },
+                    { id: 12, en: 'MINT CANDY', zh: '薄荷糖', pl: 'MIETA CUKIERKI', isHot: false },
+                    { id: 13, en: 'KIWI PASSION FRUITS GUAVA', zh: '猕猴桃百香果番石榴', pl: 'KIWI MARAKUJA GUAWA', isHot: false },
+                    { id: 14, en: 'FIZZY CHERRY', zh: '起泡樱桃', pl: 'WISNIA GAZOWANA', isHot: false }
+                ]
+            },
+            'RANDM TORNADO 15000 PUFFS': {
+                flavors: [
+                    { id: 1, en: 'BLUEBERRY POMEGRANATE', zh: '蓝莓石榴', pl: 'BOROWKA GRANAT', isHot: true },
+                    { id: 2, en: 'MIXED BERRY', zh: '混合浆果', pl: 'MIESZANE JAGODY', isHot: true },
+                    { id: 3, en: 'BLUEBERRY RASPBERRY', zh: '蓝莓树莓', pl: 'BOROWKA MALINOWA', isHot: false },
+                    { id: 4, en: 'WATERMELON ICE', zh: '西瓜冰', pl: 'LOD ARBUZOWY', isHot: true },
+                    { id: 5, en: 'TRIPLE MANGO', zh: '三重芒果', pl: 'POTROJNE MANGO', isHot: false },
+                    { id: 6, en: 'LEMON LIME', zh: '柠檬石灰', pl: 'CYTRYNA LIMONKA', isHot: false },
+                    { id: 7, en: 'BLUEBERRY ON ICE', zh: '冰上蓝莓', pl: 'BOROWKA NA LODZIE', isHot: false },
+                    { id: 8, en: 'STRAWBERRY RED BULL', zh: '草莓红牛', pl: 'TRUSKAWKA RED BULL', isHot: false },
+                    { id: 9, en: 'PEACH MANGO', zh: '桃子芒果', pl: 'BRZOSKWINIA MANGO', isHot: false },
+                    { id: 10, en: 'STRAWBERRY BANANA', zh: '草莓香蕉', pl: 'TRUSKAWKA BANAN', isHot: false },
+                    { id: 11, en: 'STRAWBERRY GRAPE', zh: '草莓葡萄', pl: 'TRUSKAWKA WINOGRONO', isHot: false },
+                    { id: 12, en: 'BLUE RAZZ CHERRY', zh: '蓝色覆盆子樱桃', pl: 'NIEBIESKI RAZZ WISNIA', isHot: false },
+                    { id: 13, en: 'PEACH ICE', zh: '桃冰', pl: 'BRZOSKWINIA LOD', isHot: false },
+                    { id: 14, en: 'FIZZY CHERRY', zh: '起泡樱桃', pl: 'WISNIA GAZOWANA', isHot: false },
+                    { id: 15, en: 'CHERRY COLA', zh: '樱桃可乐', pl: 'WISNOWA COLA', isHot: false },
+                    { id: 16, en: 'RED ENERGY ICE', zh: '红色能量冰', pl: 'CZERWONY LOD ENERGETYCZNY', isHot: false },
+                    { id: 17, en: 'BANANA SHAKE', zh: '香蕉奶昔', pl: 'BANANOWY SHAKE', isHot: false },
+                    { id: 18, en: 'SKITTLES', zh: '乐事', pl: 'SKITTLES', isHot: false },
+                    { id: 19, en: 'BLUEBERRY CHERRY CRANBERRY', zh: '蓝莓樱桃蔓越莓', pl: 'BOROWKA WISNIA ZURAWINA', isHot: false },
+                    { id: 20, en: 'ICE POP', zh: '冰棒', pl: 'LODOWY POP', isHot: false },
+                    { id: 21, en: 'BLUESOR RASPBERRY', zh: '蓝莓树莓', pl: 'BLUESOR MALINA', isHot: false },
+                    { id: 22, en: 'TRIPLE BERRY', zh: '三重浆果', pl: 'POTROJNE JAGODY', isHot: false },
+                    { id: 23, en: 'LUSH ICE', zh: '丰富冰', pl: 'BUJNY LOD', isHot: false },
+                    { id: 24, en: 'STRAWBERRY WATERMELON', zh: '草莓西瓜', pl: 'TRUSKAWKA ARBUZ', isHot: false },
+                    { id: 25, en: 'COLA ICE', zh: '可乐冰', pl: 'COLA LOD', isHot: false }
+                ]
+            },
+            'Crystal Blind 25000 PUFFS': {
+                flavors: [
+                    { id: 1, en: 'Berry ice/berry mint', zh: '浆果冰/浆果薄荷', pl: 'Lod jagodowy/mieta jagodowa', isHot: true },
+                    { id: 2, en: 'Grape mint/grape passion fruit', zh: '葡萄薄荷/葡萄百香果', pl: 'Mieta winogronowa/winogrono marakuja', isHot: true },
+                    { id: 3, en: 'Bluerazz lemonade/blueberry gum', zh: 'Bluerazz柠檬水/蓝莓口香糖', pl: 'Lemonada Bluerazz/guma jagodowa', isHot: true },
+                    { id: 4, en: 'Peach ice/cherry peach mint', zh: '桃冰/樱桃桃薄荷', pl: 'Lod brzoskwiniowy/wisnia brzoskwinia mieta', isHot: false },
+                    { id: 5, en: 'Black currant ice/cherry fiesta', zh: '黑加仑冰/樱桃嘉年华', pl: 'Porzeczka lodowa/wisnia fiesta', isHot: false },
+                    { id: 6, en: 'Kush ice/strawberry punch', zh: '库什冰/草莓冲击', pl: 'Lodowy kush/truskawkowy punch', isHot: false },
+                    { id: 7, en: 'Bubble gum/bubble', zh: '泡泡糖/泡泡', pl: 'Guma balonowa/babka', isHot: false },
+                    { id: 8, en: 'Lemon lime/lucid dream', zh: '柠檬酸橙/清醒梦', pl: 'Cytryna limonka/jasny sen', isHot: false },
+                    { id: 9, en: 'Mango pineapple/blue mint', zh: '芒果菠萝/蓝薄荷', pl: 'Mango ananas/niebieska mieta', isHot: false },
+                    { id: 10, en: 'Magic love/two apple', zh: '魔法之爱/双苹果', pl: 'Magiczna milosc/dwa jablka', isHot: false }
+                ]
+            },
+            'FUMOT TORNADO 20000 PUFFS': {
+                flavors: [
+                    { id: 1, en: 'Blueberry Raspberry Hard Candy', zh: '蓝莓树莓硬糖', pl: 'Borowka Malina Twarde Cukierki', isHot: true },
+                    { id: 2, en: 'Blue Razz', zh: '蓝色覆盆子', pl: 'Niebieski Razz', isHot: false },
+                    { id: 3, en: 'Strawberry Kiwi', zh: '草莓猕猴桃', pl: 'Truskawka Kiwi', isHot: true },
+                    { id: 4, en: 'Peach Pineapple Orange', zh: '桃子菠萝橙', pl: 'Brzoskwinia Ananas Pomarancza', isHot: false },
+                    { id: 5, en: 'Skittles', zh: '乐事', pl: 'Skittles', isHot: true },
+                    { id: 6, en: 'Peach Mango Watermelon', zh: '桃子芒果西瓜', pl: 'Brzoskwinia Mango Arbuz', isHot: false },
+                    { id: 7, en: 'Strawberry Ice Cream', zh: '草莓冰淇淋', pl: 'Lody truskawkowe', isHot: false },
+                    { id: 8, en: 'Pear Ice', zh: '梨冰', pl: 'Gruszka lod', isHot: false },
+                    { id: 9, en: 'Kiwi Lemon', zh: '猕猴桃柠檬', pl: 'Kiwi cytrynowe', isHot: false },
+                    { id: 10, en: 'Jelly Beans', zh: '软糖豆', pl: 'Zelki', isHot: false }
+                ]
+            },
+            'XCOR DUBAI NIGHT 28000 PUFFS': {
+                flavors: [
+                    { id: 1, en: 'MIX FRUITS', zh: '混合水果', pl: 'MIX OWOCOW', isHot: true },
+                    { id: 2, en: 'BLUEBERRY RASPBERRY', zh: '蓝莓树莓', pl: 'BOROWKA MALINOWA', isHot: true },
+                    { id: 3, en: 'GUMMY BEAR', zh: '小熊软糖', pl: 'GUMMI MISIE', isHot: false },
+                    { id: 4, en: 'JUICY PEACH', zh: '多汁桃子', pl: 'SOCZYSYA BRZOSKWINIA', isHot: true },
+                    { id: 5, en: 'ORANGE ICE', zh: '橙冰', pl: 'POMARANCZOWY LOD', isHot: false },
+                    { id: 6, en: 'TRIPLE MANGO', zh: '三重芒果', pl: 'POTROJNE MANGO', isHot: false },
+                    { id: 7, en: 'PINEAPPLE ICE', zh: '菠萝冰', pl: 'LOD ANANASOWY', isHot: false },
+                    { id: 8, en: 'STRAWBERRY ICE', zh: '草莓冰', pl: 'LOD TRUSKAWKOWY', isHot: false },
+                    { id: 9, en: 'APPLE ICE', zh: '苹果冰', pl: 'LOD JABLKOWY', isHot: false },
+                    { id: 10, en: 'WATERMELON ICE', zh: '西瓜冰', pl: 'LOD ARBUZOWY', isHot: false }
+                ]
+            },
+            'FIZZY TWINS 50000 PUFFS': {
+                flavors: [
+                    { id: 1, en: 'BANANA', zh: '香蕉', pl: 'BANAN', isHot: true },
+                    { id: 2, en: 'RASPBERRY WATERMELON/KIWI PASSION FRUIT', zh: '树莓西瓜/猕猴桃百香果', pl: 'MALINA ARBUZ/KIWI MARAKUJA', isHot: false },
+                    { id: 3, en: 'GUAVA', zh: '番石榴', pl: 'GUAWA', isHot: true },
+                    { id: 4, en: 'PINEAPPLE PEACH PASSIONFRUIT/BLUEBERRY', zh: '菠萝桃子百香果/蓝莓', pl: 'ANANAS BRZOSKWINIA MARAKUJA/BOROWKA', isHot: false },
+                    { id: 5, en: 'RASPBERRY', zh: '树莓', pl: 'MALINA', isHot: false },
+                    { id: 6, en: 'WATERMELON ICE/LEMON LIME', zh: '西瓜冰/柠檬酸橙', pl: 'LOD ARBUZOWY/CYTRYNA LIMONKA', isHot: true },
+                    { id: 7, en: 'MIXED BERRY/STRAWBERRY', zh: '混合浆果/草莓', pl: 'MIX JAGODOWY/TRUSKAWKA', isHot: false },
+                    { id: 8, en: 'STRAWBERRY ICE/FIZZY CHERRY', zh: '草莓冰/起泡樱桃', pl: 'LOD TRUSKAWKOWY/WISNIA GAZOWANA', isHot: false },
+                    { id: 9, en: 'BLUEBERRY RASPBERRY/WATERMELON ICE', zh: '蓝莓树莓/西瓜冰', pl: 'BOROWKA MALINOWA/LOD ARBUZOWY', isHot: false }
+                ]
+            }
+        };
+
+        // 平滑滚动到锚点
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+
+        // 表单构造与提交
+        $(document).ready(function () {
+            $('#contactForm').on('submit', function (e) {
+                e.preventDefault(); // 阻止默认提交行为
+
+                // 获取用户输入的数据
+                const name = $('#name').val().trim();
+                const phone = $('#tel').val().trim();
+                const email = $('#email').val().trim();
+                const address = $('#address').val().trim();
+                const telegram = $('#telegram').val().trim();
+                const whatsapp = $('#whatsapp').val().trim();
+                const product = $('#productSelect').val();
+                const message = $('#message').val().trim();
+
+                // 判断使用哪种联系方式
+                let contact_method = '';
+                let social_account = '';
+
+                if (telegram) {
+                    contact_method = 'Telegram';
+                    social_account = telegram;
+                } else if (whatsapp) {
+                    contact_method = 'WhatsApp';
+                    social_account = whatsapp;
+                } else {
+                    contact_method = 'Phone';
+                    social_account = phone;
+                }
+
+                // 构建订单数据
+                const orderData = {
+                    firstname: name.split(' ')[0] || '',
+                    lastname: name.split(' ').slice(1).join(' ') || '',
+                    phone: phone,
+                    email: email,
+                    address: address,
+                    contact_method: contact_method,
+                    social_account: social_account,
+                    product: product,
+                    flavor: '', // 如果需要口味字段，可扩展
+                    quantity: '', // 默认数量，如需可扩展
+                    comments: message + ((whatsapp && telegram) ? '  Whatsapp:  ' + whatsapp : ''),
+                    referer: document.location.href
+                };
+
+                // 显示加载动画或禁用按钮防止重复提交
+                const submitBtn = $('.modal-footer .btn-primary');
+                submitBtn.prop('disabled', true).text('Wysyłanie...');
+
+                // 发送 AJAX 请求
+                $.ajax({
+                    url: ajaxurl,
+                    method: 'POST',
+                    contentType: 'application/json',
+                    data: JSON.stringify(orderData),
+                    success: function (response) {
+                        // 恢复按钮状态
+                        submitBtn.prop('disabled', false).text('Wyślij');
+                        if (response.status === 'success') {
+                            confirm('✅ ' + (response.message || 'Wystąpił błąd.'));
+                            $('#formModal').modal('hide');
+                            $('#contactForm')[0].reset(); // 清空表单
+                        } else if (response.status === 'error' && response.errors) {
+                            confirm('⚠️ ' + (response.errors || 'Wystąpił błąd.'));
+                        } else {
+                            confirm('⚠️ Nieznany błąd. Spróbuj ponownie później.');
+                        }
+                    },
+                    error: function (jqXHR, textStatus, errorThrown) {
+                        alert('Błąd sieci lub brak odpowiedzi serwera. Sprawdź dziennik konsoli.');
+                        submitBtn.prop('disabled', false).text('Wyślij');
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>
