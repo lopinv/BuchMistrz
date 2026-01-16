@@ -1,5 +1,5 @@
 (function () {
-  // 配置：仅需填写主域名（不带 www）
+  // ✅ 配置：仅需填写主域名（不带 www）
   const siteCodes = {
     'buchmistrz.pl': 'KqmtdhxdOsN9a7i7',
     'buchvape.pl': 'L4SJdWJWSfLvV6Ce',
@@ -9,12 +9,19 @@
     'dymly.pl': 'L4SL3ETePxb3X0Og',
     'smak-chmury.pl': 'L4SL9LoKvDvwuxuy'
   };
-
-  // 获取当前域名，并移除开头的 "www."（如果存在）
+  
+  // ✅ 检测是否为中文用户（包括 zh, zh-CN, zh-TW, zh-HK 等）
+  const userLang = (navigator.language || navigator.userLanguage || '').toLowerCase();
+  if (userLang.startsWith('zh')) {
+    console.log('51.la: 检测到中文用户，跳过统计加载。');
+    return;
+  }
+  
+  // ✅ 获取当前域名，并移除开头的 "www."（如果存在）
   const hostname = window.location.hostname;
   const normalizedDomain = hostname.replace(/^www\./, '');
 
-  // 检查标准化后的域名是否在配置中
+  // ✅ 检查标准化后的域名是否在配置中
   const code = siteCodes[normalizedDomain];
 
   if (!code) {
@@ -22,7 +29,7 @@
     return;
   }
 
-  // 动态创建并加载 51.la 脚本
+  // ✅ 动态创建并加载 51.la 脚本
   const script = document.createElement('script');
   script.charset = 'UTF-8';
   script.id = 'LA_COLLECT';
